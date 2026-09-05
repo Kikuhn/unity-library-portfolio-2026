@@ -1,0 +1,22 @@
+{
+    "name": "Pan.GridCompatibles2.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:727fc14985a33454eae77963953f0069",
+        "GUID:30eda5ed844b9ef4586c2c3c81130ee5",
+        "GUID:73e2f7dbef9e60947bd5d281bd59bff0",
+        "GUID:69448af7b92c7f342b298e06a37122aa",
+        "GUID:329b4ccd385744985bf3f83cfd77dfe7"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

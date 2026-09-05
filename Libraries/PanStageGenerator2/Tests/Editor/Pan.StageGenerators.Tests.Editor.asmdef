@@ -1,0 +1,25 @@
+{
+    "name": "Pan.StageGenerators.Tests.Editor",
+    "rootNamespace": "Pan.StageGenerators.Tests",
+    "references": [
+        "Pan.StageGenerators",
+        "Pan.GridCompatibles2",
+        "Pan.Utilities.Essential"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "ZLinq.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

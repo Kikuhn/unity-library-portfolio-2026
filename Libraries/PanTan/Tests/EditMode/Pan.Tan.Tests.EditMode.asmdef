@@ -1,0 +1,26 @@
+{
+  "name": "Pan.Tan.Tests.EditMode",
+  "rootNamespace": "Pan.Tan.Tests",
+  "references": [
+    "Pan.Tan",
+    "Pan.Tan.Editor",
+    "Pan.HighDensityElement",
+    "Pan.HighDensityElement.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

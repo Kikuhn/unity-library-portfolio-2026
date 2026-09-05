@@ -1,0 +1,20 @@
+{
+    "name": "Pan.StageGenerators.Tests.PlayMode",
+    "rootNamespace": "Pan.StageGenerators.Tests",
+    "references": [
+        "Pan.StageGenerators",
+        "Pan.Utilities.Essential"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

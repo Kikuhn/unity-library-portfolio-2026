@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1faa67ac4cd55114dae6dc7c2e71a296, type: 3}
+  m_Name: TagManagerUnify
+  m_EditorClassIdentifier: 
+  TagManagerUnifyList:
+  - Main: {fileID: 11400000}
+    Name: UnityDefault
+    DefineSymbolSetting: {fileID: 0}
+    TagSetting: {fileID: 11400000, guid: decc76c18bf1fd54a8e67bfd68c3c348, type: 2}
+    LayerSetting: {fileID: 11400000, guid: 3793c298fd9c8ea49aabc54b933d202c, type: 2}
+    SortingLayerSetting: {fileID: 11400000, guid: cbf3ea1c74317a54eac1a9a4319c5444,
+      type: 2}
+    RenderingLayerSetting: {fileID: 11400000, guid: dd8cb8c515420f0408e27fa37f8f9899,
+      type: 2}
+  - Main: {fileID: 11400000}
+    Name: Pan_Danmaku
+    DefineSymbolSetting: {fileID: 11400000, guid: 70cd0f896acbf3447bd56b01c2e11fe5,
+      type: 2}
+    TagSetting: {fileID: 11400000, guid: e6648b205be46d84d832e1fcd00bc658, type: 2}
+    LayerSetting: {fileID: 11400000, guid: b54d71bd4ef67fc48a4ee07aa4703341, type: 2}
+    SortingLayerSetting: {fileID: 11400000, guid: 7102a875dc828ab45b35793da6215b35,
+      type: 2}
+    RenderingLayerSetting: {fileID: 11400000, guid: f772608b16fdb10439ae415381cc7f7c,
+      type: 2}
+  DefaultUnityLayerSetting: {fileID: 11400000, guid: 8d69a7cc1244e3a4d9f52528ea2f3723,
+    type: 2}
+  GeneratedCodePath: Private\TagManager\Scripts
+  PackagePath: Packages/com.kikuhn.panutilityessential/package.json

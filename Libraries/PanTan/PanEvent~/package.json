@@ -1,0 +1,15 @@
+{
+  "name": "com.kikuhn.pantan.panevent",
+  "version": "0.5.0",
+  "displayName": "Pan-Tan.PanEvent",
+  "description": "Optional lazy PanEvent sidecar for Pan-Tan handles.",
+  "unity": "6000.5",
+  "dependencies": {
+    "com.kikuhn.pantan": "0.5.0",
+    "com.kikuhn.paneventmanager": "2.0.1",
+    "com.kikuhn.panhighdensityelement": "0.6.0"
+  },
+  "author": {
+    "name": "Kikuhn"
+  }
+}

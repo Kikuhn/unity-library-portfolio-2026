@@ -1,0 +1,22 @@
+{
+    "name": "Pan.Utilities.ForSpine.Tests.Editor",
+    "rootNamespace": "Pan.SpineUtil.Tests",
+    "references": [
+        "Pan.Utilities.ForSpine",
+        "spine-csharp"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

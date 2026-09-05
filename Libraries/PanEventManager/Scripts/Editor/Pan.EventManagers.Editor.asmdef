@@ -1,0 +1,22 @@
+{
+    "name": "Pan.EventManagers.Editor",
+    "rootNamespace": "Pan.EventManagers.Editor",
+    "references": [
+        "GUID:727fc14985a33454eae77963953f0069",
+        "GUID:83a349d703d2b91439b8dacbfad69de4",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:4129704b5a1a13841ba16f230bf24a57",
+        "GUID:30eda5ed844b9ef4586c2c3c81130ee5"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

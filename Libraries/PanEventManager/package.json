@@ -1,0 +1,21 @@
+{
+  "name": "com.kikuhn.paneventmanager",
+  "version": "2.0.1",
+  "displayName": "Pan-EventManager",
+  "description": "\ud310 \uc774\ubca4\ud2b8 \ub9e4\ub2c8\uc800\uc5d0\uc6a9!",
+  "unity": "6000.0",
+  "dependencies": {
+    "com.kikuhn.panutilityessential": "1.0.0",
+    "com.cysharp.unitask": "2.5.10"
+  },
+  "samples": [
+    {
+      "displayName": "DOTS Event Samples",
+      "description": "Manual DOTS/ECS and EventManager sample assets.",
+      "path": "Samples~/DOTS Event Samples"
+    }
+  ],
+  "author": {
+    "name": "Kikuhn"
+  }
+}

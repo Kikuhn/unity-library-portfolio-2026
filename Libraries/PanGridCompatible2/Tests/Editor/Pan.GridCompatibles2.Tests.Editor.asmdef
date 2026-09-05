@@ -1,0 +1,22 @@
+{
+    "name": "Pan.GridCompatibles2.Tests.Editor",
+    "rootNamespace": "Pan.GridCompatibles2.Tests",
+    "references": [
+        "Pan.GridCompatibles2",
+        "Pan.Utilities.Essential"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

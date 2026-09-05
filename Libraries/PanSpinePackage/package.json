@@ -1,0 +1,18 @@
+{
+  "name": "com.kikuhn.panspinepackage",
+  "version": "1.1.7",
+  "displayName": "Pan-Spine-Package",
+  "description": "판 스파인 패키지 에용!",
+  "unity": "6000.0",
+  "dependencies": {
+    "com.unity.inputsystem": "1.11.2",
+    "com.esotericsoftware.spine.spine-csharp": "4.3.25",
+    "com.esotericsoftware.spine.spine-unity": "4.3.0",
+    "com.kikuhn.panutilityessential": "1.0.0",
+    "com.kikuhn.panutilityforspine": "1.0.0",
+    "com.kikuhn.paneventmanager": "2.0.1"
+  },
+  "author": {
+    "name": "Kikuhn"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Pan.HighDensityElement.Tests.PlayMode",
+  "rootNamespace": "Pan.HighDensityElement.Tests",
+  "references": [
+    "Pan.HighDensityElement",
+    "Unity.RenderPipelines.Universal.2D.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "noEngineReferences": false
+}

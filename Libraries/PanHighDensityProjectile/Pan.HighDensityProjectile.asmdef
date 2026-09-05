@@ -1,0 +1,20 @@
+{
+  "name": "Pan.HighDensityProjectile",
+  "rootNamespace": "Pan.HighDensityProjectile",
+  "references": [
+    "Unity.Burst",
+    "Unity.Collections",
+    "Unity.Mathematics",
+    "Pan.HighDensityElement",
+    "Sirenix.OdinInspector.Attributes"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Pan.StageGenerators.Editor",
+    "rootNamespace": "Pan.StageGenerators.Editor",
+    "references": [
+        "GUID:fb396383ca3b96047a7316ab4b5e69dc",
+        "GUID:727fc14985a33454eae77963953f0069",
+        "GUID:30eda5ed844b9ef4586c2c3c81130ee5",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:4129704b5a1a13841ba16f230bf24a57",
+        "GUID:73e2f7dbef9e60947bd5d281bd59bff0",
+        "GUID:5d8c2d0352def254ba88d5bfc80a42eb"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

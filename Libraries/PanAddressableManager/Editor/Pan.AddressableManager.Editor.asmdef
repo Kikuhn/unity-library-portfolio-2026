@@ -1,0 +1,25 @@
+{
+    "name": "Pan.AddressableManagers.Editor",
+    "rootNamespace": "Pan.AddressableManagers.Editor",
+    "references": [
+        "GUID:d7763bd6217d1d94a9e195f6add314df",
+        "GUID:69448af7b92c7f342b298e06a37122aa",
+        "GUID:4129704b5a1a13841ba16f230bf24a57",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:593a5b492d29ac6448b1ebf7f035ef33",
+        "GUID:84651a3751eca9349aac36a66bba901b",
+        "GUID:727fc14985a33454eae77963953f0069",
+        "GUID:30eda5ed844b9ef4586c2c3c81130ee5"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

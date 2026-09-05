@@ -1,0 +1,8 @@
+{
+  "name": "Pan.HighDensityElement.Physics2DBridge",
+  "rootNamespace": "Pan.HighDensityElement.Physics2DBridge",
+  "references": [
+    "Pan.HighDensityElement"
+  ],
+  "autoReferenced": true
+}

@@ -1,0 +1,17 @@
+{
+  "name": "com.kikuhn.panhighdensityelement",
+  "version": "0.6.1",
+  "displayName": "Pan-HighDensityElement",
+  "description": "GameObject-free high-density 2D element world with Burst jobs, bodyless Physics Core 2D queries, dynamic and area lanes, and instanced sprite rendering.",
+  "unity": "6000.5",
+  "dependencies": {
+    "com.unity.burst": "1.8.29",
+    "com.unity.collections": "2.6.6",
+    "com.unity.mathematics": "1.3.3",
+    "com.unity.modules.physicscore2d": "1.0.0",
+    "com.unity.render-pipelines.universal": "17.5.0"
+  },
+  "author": {
+    "name": "Kikuhn"
+  }
+}

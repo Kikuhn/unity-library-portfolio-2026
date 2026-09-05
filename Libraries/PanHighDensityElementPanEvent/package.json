@@ -1,0 +1,14 @@
+{
+  "name": "com.kikuhn.panhighdensityelement.panevent",
+  "version": "0.6.1",
+  "displayName": "Pan-HighDensityElement.PanEvent",
+  "description": "Optional PanEvent sidecar for high-density Elements.",
+  "unity": "6000.5",
+  "dependencies": {
+    "com.kikuhn.panhighdensityelement": "0.6.1",
+    "com.kikuhn.paneventmanager": "2.0.1"
+  },
+  "author": {
+    "name": "Kikuhn"
+  }
+}

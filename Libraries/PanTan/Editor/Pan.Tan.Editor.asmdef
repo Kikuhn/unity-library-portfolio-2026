@@ -1,0 +1,20 @@
+{
+  "name": "Pan.Tan.Editor",
+  "rootNamespace": "Pan.Tan.Editor",
+  "references": [
+    "Pan.Tan",
+    "Pan.HighDensityElement",
+    "Pan.HighDensityElement.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

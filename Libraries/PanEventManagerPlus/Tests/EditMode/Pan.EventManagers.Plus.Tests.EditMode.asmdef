@@ -1,0 +1,25 @@
+{
+  "name": "Pan.EventManagers.Plus.Tests.EditMode",
+  "rootNamespace": "Pan.EventManagers.Plus.Tests",
+  "references": [
+    "Pan.EventManagers.Plus",
+    "Pan.EventManagers",
+    "Pan.Utilities.Essential"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Sirenix.Serialization.dll"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "noEngineReferences": false
+}

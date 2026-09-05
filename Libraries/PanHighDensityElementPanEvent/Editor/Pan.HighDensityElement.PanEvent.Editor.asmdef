@@ -1,0 +1,22 @@
+{
+  "name": "Pan.HighDensityElement.PanEvent.Editor",
+  "rootNamespace": "Pan.HighDensityElement.PanEvent.Editor",
+  "references": [
+    "Pan.HighDensityElement.PanEvent",
+    "Pan.HighDensityElement",
+    "Pan.HighDensityElement.Editor",
+    "Pan.EventManagers",
+    "Pan.EventManagers.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

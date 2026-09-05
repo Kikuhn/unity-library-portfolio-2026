@@ -1,0 +1,19 @@
+{
+  "name": "Pan.HighDensityProjectile.Tests.PlayMode",
+  "rootNamespace": "Pan.HighDensityProjectile.Tests",
+  "references": [
+    "Pan.HighDensityProjectile"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "noEngineReferences": false
+}

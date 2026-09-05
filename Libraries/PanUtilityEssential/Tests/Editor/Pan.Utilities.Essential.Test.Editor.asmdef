@@ -1,0 +1,21 @@
+{
+    "name": "Pan.Utilities.Essential.Test.Editor",
+    "rootNamespace": "Pan.Util.Tests",
+    "references": [
+        "GUID:727fc14985a33454eae77963953f0069"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

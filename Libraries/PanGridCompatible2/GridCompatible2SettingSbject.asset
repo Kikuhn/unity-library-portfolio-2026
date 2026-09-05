@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4bf7c54680ec9842b3bde26ef642ede, type: 3}
+  m_Name: GridCompatible2SettingSbject
+  m_EditorClassIdentifier: 
+  gridCompatible:
+    SnapSettingInternal:
+      swizzle: 1
+      gridUnitX_Width: 1
+      gridUnitY_Height: 1
+      gridUnitZ_Depth: 1
+      UseAutoDepthZ: 1
+      depthStandard: 2
+      FloorStandardPosition: 0
+      snapToGridCellCenter: 1
+      GridPositionCorrection: {x: 0, y: 0}
+    SnapSettingExternal: {fileID: 0}
+    objectSizeX_Width: 2
+    objectSizeY_Height: 3
+    objectSizeZ_Depth: 1
+    objectDepthZ: 0.5
+    UseGridPositionCorrection: 0
+    gridPositionCorrectionX: 0
+    gridPositionCorrectionY: 0
+    PreferUpperRightGridCell: 0

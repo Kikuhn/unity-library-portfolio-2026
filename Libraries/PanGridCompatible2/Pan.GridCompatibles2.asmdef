@@ -1,0 +1,17 @@
+{
+    "name": "Pan.GridCompatibles2",
+    "rootNamespace": "",
+    "references": [
+        "GUID:727fc14985a33454eae77963953f0069",
+        "GUID:d8b63aba1907145bea998dd612889d6b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

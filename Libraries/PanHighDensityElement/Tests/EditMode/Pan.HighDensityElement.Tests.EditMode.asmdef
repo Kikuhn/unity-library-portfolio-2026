@@ -1,0 +1,22 @@
+{
+  "name": "Pan.HighDensityElement.Tests.EditMode",
+  "rootNamespace": "Pan.HighDensityElement.Tests",
+  "references": [
+    "Pan.HighDensityElement",
+    "Pan.HighDensityElement.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Pan.Tan",
+  "rootNamespace": "Pan.Tan",
+  "references": [
+    "Pan.HighDensityElement"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Pan.Utilities.Essential.Test",
+    "rootNamespace": "Pan.Util.Tests",
+    "references": [
+        "GUID:727fc14985a33454eae77963953f0069"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Sirenix.OdinInspector.Attributes.dll",
+        "ZLinq.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

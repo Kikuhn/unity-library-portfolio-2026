@@ -1,0 +1,24 @@
+{
+  "name": "Pan.AddressableManagers.Tests.EditMode",
+  "rootNamespace": "Pan.AddressableManagers.Tests",
+  "references": [
+    "Pan.AddressableManagers",
+    "Unity.Addressables",
+    "Unity.ResourceManager",
+    "UniTask"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "noEngineReferences": false
+}

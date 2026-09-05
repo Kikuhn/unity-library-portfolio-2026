@@ -1,0 +1,27 @@
+{
+    "name": "Pan.SpinePackages.Tests.Editor",
+    "rootNamespace": "Pan.SpinePackage.Tests",
+    "references": [
+        "Pan.SpinePackages",
+        "Pan.Utilities.ForSpine",
+        "Pan.Utilities.Essential",
+        "spine-csharp",
+        "spine-unity"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "ZLinq.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "com.kikuhn.panhighdensityelement.physics2dbridge",
+  "version": "0.5.1",
+  "displayName": "Pan High Density Element Physics2D Bridge",
+  "description": "Mirrors selected legacy Collider2D and Rigidbody2D geometry into a Pan High Density Element Physics Core 2D world.",
+  "unity": "6000.5",
+  "dependencies": {
+    "com.kikuhn.panhighdensityelement": "0.6.1"
+  },
+  "author": {
+    "name": "Kikuhn"
+  }
+}

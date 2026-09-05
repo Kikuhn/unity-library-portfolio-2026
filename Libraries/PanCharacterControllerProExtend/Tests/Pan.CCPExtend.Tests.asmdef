@@ -1,0 +1,21 @@
+{
+    "name": "Pan.CCPExtend.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:077d0b54417a44d40a5156983f706049"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

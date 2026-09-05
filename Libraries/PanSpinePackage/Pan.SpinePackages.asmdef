@@ -1,0 +1,22 @@
+{
+    "name": "Pan.SpinePackages",
+    "rootNamespace": "Pan.SpinePackages",
+    "references": [
+        "GUID:72d1fea872bd7a449bf3818f2b0a6708",
+        "GUID:68765d262e2128e4ab49c983f3411946",
+        "GUID:727fc14985a33454eae77963953f0069",
+        "GUID:3a3b3bc62539eb846abf234bf611d1b9",
+        "GUID:83a349d703d2b91439b8dacbfad69de4",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:5f86a982262261b4f889a177c455c9e3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

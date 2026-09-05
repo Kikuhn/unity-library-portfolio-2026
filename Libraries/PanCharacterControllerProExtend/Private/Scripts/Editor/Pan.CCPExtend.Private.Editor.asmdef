@@ -1,0 +1,26 @@
+{
+    "name": "Pan.CCPExtend.Private.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2e7f0f7a8ee6e144db6fb95614c6d8fe",
+        "GUID:727fc14985a33454eae77963953f0069",
+        "GUID:30eda5ed844b9ef4586c2c3c81130ee5",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:029c1c1b674aaae47a6841a0b89ad80e",
+        "GUID:077d0b54417a44d40a5156983f706049",
+        "GUID:972eed9471e337646a3c9c10d5cd8e38"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8793c4ddab6946e41bb39320b670c8b5, type: 3}
+  m_Name: StageGenerator2SingletonSOManager
+  m_EditorClassIdentifier: 
+  gridTagSetting_RoomMain: {fileID: 11400000, guid: 13008c40ac139ab4099d787cf528f437,
+    type: 2}
+  gridTagSetting_RoomSafe: {fileID: 11400000, guid: 886cbaa4bf75b6c4b833518905e0aabd,
+    type: 2}
+  gridTagSetting_RoomExpandSafe: {fileID: 11400000, guid: c69284b6b3cfd8547b5d29906a367431,
+    type: 2}
+  gridTagSetting_RoomEdge: {fileID: 11400000, guid: b9ef17cc996bcba4bb6d681c811b5743,
+    type: 2}
+  gridTagSetting_RoomDoor: {fileID: 11400000, guid: 21b24f295f8162f499ac66b96c8e42db,
+    type: 2}
+  gridTagSetting_RoomDoorStart: {fileID: 11400000, guid: 14f0e6dbe2989ea48a7fa7c2217e1b59,
+    type: 2}
+  gridTagSetting_RoomDoorEnd: {fileID: 11400000, guid: 4115c1503bf43fc4a895fc6701da3265,
+    type: 2}
+  gridTagSetting_RoomDoorAreaStartEnd: {fileID: 11400000, guid: 54d6b8cfb40bc86439a227b1436210da,
+    type: 2}
+  gridTagSetting_RoomDoorArea: {fileID: 11400000, guid: 3215342c330940c488e0e84136101f0d,
+    type: 2}
+  gridTagSetting_RoomDoorAreaExpand: {fileID: 11400000, guid: 6664327623e94484eba36e6e70059f7b,
+    type: 2}
+  gridTagSetting_HallwayMain: {fileID: 11400000, guid: 6a6eaa30fe365744a934a0a17cfb0518,
+    type: 2}
+  gridTagSetting_HallwayExpand: {fileID: 11400000, guid: 76a737e4f1edb9c4aa8cc2c581368f2d,
+    type: 2}
+  gridTagSetting_HallwayEdge: {fileID: 11400000, guid: e78a7bb8aa5c35a438e1628e95c6a79a,
+    type: 2}
+  gridTagSetting_HallwaySafe: {fileID: 11400000, guid: 26539dd66499e3f4392599b0f5cc0287,
+    type: 2}
+  gridTagSetting_HallwayDoorCorrectionEdge: {fileID: 11400000, guid: 6d870b5ec41b5594092049ef0443f20d,
+    type: 2}
+  gridTagSetting_HallwayDoorCorrectionSafe: {fileID: 11400000, guid: 8531f43c14f085a408fb8c789077b174,
+    type: 2}

@@ -1,0 +1,23 @@
+{
+  "name": "Pan.Tan.PanEvent.Editor",
+  "rootNamespace": "Pan.Tan.PanEvent.Editor",
+  "references": [
+    "Pan.Tan",
+    "Pan.Tan.PanEvent",
+    "Pan.HighDensityElement",
+    "Pan.HighDensityElement.Editor",
+    "Pan.EventManagers",
+    "Pan.EventManagers.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

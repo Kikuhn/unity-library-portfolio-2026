@@ -1,0 +1,26 @@
+{
+  "name": "Pan.HighDensityElement.PanEvent.Tests.EditMode",
+  "rootNamespace": "Pan.HighDensityElement.PanEvent.Tests",
+  "references": [
+    "Pan.HighDensityElement.PanEvent",
+    "Pan.HighDensityElement.PanEvent.Editor",
+    "Pan.HighDensityElement",
+    "Pan.HighDensityElement.Editor",
+    "Pan.EventManagers",
+    "Pan.EventManagers.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "noEngineReferences": false
+}

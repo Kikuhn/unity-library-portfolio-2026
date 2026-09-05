@@ -1,0 +1,21 @@
+{
+  "name": "com.kikuhn.panutilityforspine",
+  "version": "1.1.2",
+  "displayName": "Pan-Utility-ForSpine",
+  "description": "판 스파인 유틸리티 에용!",
+  "unity": "2022.3",
+  "dependencies": {
+    "com.esotericsoftware.spine.spine-csharp": "4.3.25",
+    "com.esotericsoftware.spine.spine-unity": "4.3.0"
+  },
+  "samples": [
+    {
+      "displayName": "Custom Sprite Shader Samples",
+      "description": "Manual shader and material samples for the custom Spine sprite shader workflow.",
+      "path": "Samples~/Custom Sprite Shader Samples"
+    }
+  ],
+  "author": {
+    "name": "Kikuhn"
+  }
+}

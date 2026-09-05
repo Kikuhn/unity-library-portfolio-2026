@@ -1,0 +1,22 @@
+{
+  "name": "Pan.HighDensityElement.Physics2DBridge.Tests.EditMode",
+  "rootNamespace": "Pan.HighDensityElement.Physics2DBridge.Tests",
+  "references": [
+    "Pan.HighDensityElement",
+    "Pan.HighDensityElement.Physics2DBridge"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "noEngineReferences": false
+}

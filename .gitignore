@@ -1,0 +1,9 @@
+.DS_Store
+UnityDemo/Library/
+UnityDemo/Temp/
+UnityDemo/Obj/
+UnityDemo/Logs/
+UnityDemo/UserSettings/
+*.csproj
+*.sln
+.env*

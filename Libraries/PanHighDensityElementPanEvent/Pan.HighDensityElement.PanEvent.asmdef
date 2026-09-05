@@ -1,0 +1,17 @@
+{
+  "name": "Pan.HighDensityElement.PanEvent",
+  "rootNamespace": "Pan.HighDensityElement.PanEvent",
+  "references": [
+    "Pan.HighDensityElement",
+    "Pan.EventManagers"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

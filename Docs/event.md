@@ -12,7 +12,7 @@
 var feature = eventAble.Require<DemoEventValue>();
 ```
 
-설정과 의존성이 준비된 호출 형태를 설명하는 예시입니다. 아래 실행 근거에서 새 Unity 샘플의 실제 호출·검증 범위를 확인할 수 있습니다.
+설정과 의존성이 준비된 호출 형태를 설명하는 예시입니다. 아래 링크에서 실제 구현을 확인할 수 있습니다.
 
 ## 3. 핵심 설계
 
@@ -22,26 +22,13 @@ RequireInternal은 기존 부착값을 먼저 확인합니다. 새 값은 활성
 
 ## 4. 선택 이유와 한계
 
-활성화 콜백의 재진입과 제거를 고려한 소유권 확인이 핵심입니다. 풀링만 도입하면 해결되는 문제가 아닙니다. 기능 구현자는 Disable/Reset 경로에서 구독과 대상 참조를 정리해야 하며, 제네릭 제약과 라이프사이클 학습 비용이 있습니다. 최초 선택 이유와 직접 작성 범위는 확인 중입니다.
+활성화 콜백의 재진입과 제거를 고려한 소유권 확인이 핵심입니다. 풀링만 도입하면 해결되는 문제가 아닙니다. 기능 구현자는 Disable/Reset 경로에서 구독과 대상 참조를 정리해야 하며, 제네릭 제약과 라이프사이클 학습 비용이 있습니다. 기능을 컴포넌트처럼 장착·해제하면서 생성·파괴 반복을 피하기 위해 클래스 풀링 구조로 설계했습니다.
 
 ## 5. 본인 기여
 
-본인 개발 라이브러리입니다. 최초 요구 정의, 해당 구조를 선택한 이유, 직접 구현·검증한 부분과 AI 지원 범위는 사용자 확인 후 확정합니다. 현재 설명은 코드로 확인한 동작입니다.
+직접 개발한 라이브러리의 공개 소스입니다. 아래 설명과 링크는 이 스냅샷의 구현을 기준으로 합니다.
 
-## 6. 검증 근거와 읽을 코드
+## 6. 읽을 코드
 
 - [Scripts/PanEventAble.Mutation.cs](../Libraries/PanEventManager/Scripts/PanEventAble.Mutation.cs)
 - [Scripts/PanEventValueManager.cs](../Libraries/PanEventManager/Scripts/PanEventValueManager.cs)
-
-[시연 명세](demo-specs.md#event) · [테스트 파일 목록](inventory.md)
-
-새 Unity 샘플에서 같은 타입 재요구, 해제·재사용, 활성화 예외 복구와 재진입 검사를 통과했습니다. 이는 Codex가 제작한 시연 코드의 실행 결과이며 기존 게임의 개발 성과와 구분합니다. 공개본의 독립 설치 검증과 직접 기여 범위 확정은 남아 있습니다.
-
-
-[시연 코드](../UnityDemo/Assets/Portfolio/Runtime/PortfolioDemo.cs) · [무음 MP4 초안](Media/Event-draft.mp4) · [검사 결과](Media/Event-verification.json)
-
-![Event 실행 화면](Media/Event.png)
-
-Windows Development Player에서도 실제 창을 표시한 상태로 자동 검사를 통과했습니다.
-
-[Player 캡처](Media/Event-player.png) · [Player 검사 결과](Media/Event-player-verification.json)

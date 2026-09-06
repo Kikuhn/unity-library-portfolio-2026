@@ -13,7 +13,7 @@ var handle = PanAddressableNative.LoadAssetAsyncHandle<GameObject>(key);
 // 소유자가 더 이상 사용하지 않을 때 유효한 핸들을 한 번 반환합니다.
 ```
 
-설정과 의존성이 준비된 호출 형태를 설명하는 예시입니다. 아래 실행 근거에서 새 Unity 샘플의 실제 호출·검증 범위를 확인할 수 있습니다.
+설정과 의존성이 준비된 호출 형태를 설명하는 예시입니다. 아래 링크에서 실제 구현을 확인할 수 있습니다.
 
 ## 3. 핵심 설계
 
@@ -27,26 +27,9 @@ PanAddressableNative.LoadAssetAsyncHandle은 Addressables.LoadAssetAsync를 반�
 
 ## 5. 본인 기여
 
-본인 개발 라이브러리입니다. 최초 요구 정의, 해당 구조를 선택한 이유, 직접 구현·검증한 부분과 AI 지원 범위는 사용자 확인 후 확정합니다. 현재 설명은 코드로 확인한 동작입니다.
+직접 개발한 라이브러리의 공개 소스입니다. 아래 설명과 링크는 이 스냅샷의 구현을 기준으로 합니다.
 
-## 6. 검증 근거와 읽을 코드
+## 6. 읽을 코드
 
 - [PanAddressableNative.cs](../Libraries/PanAddressableManager/PanAddressableNative.cs)
 - [PanAddressableManager.cs](../Libraries/PanAddressableManager/PanAddressableManager.cs)
-
-[시연 명세](demo-specs.md#addressable) · [테스트 파일 목록](inventory.md)
-
-새 Unity 샘플에서 정상 로딩, 늦은 결과 거부, 핸들 반환, 대상 교체, 없는 key 복구 검사를 통과했습니다. 이는 Codex가 제작한 시연 코드의 실행 결과이며 기존 게임의 개발 성과와 구분합니다. 공개본의 독립 설치 검증과 직접 기여 범위 확정은 남아 있습니다.
-
-
-[시연 코드](../UnityDemo/Assets/Portfolio/Runtime/PortfolioDemo.cs) · [무음 MP4 초안](Media/Addressables-draft.mp4) · [검사 결과](Media/Addressables-verification.json)
-
-![Addressables 실행 화면](Media/Addressables.png)
-
-정상 로딩 프레임과 마지막 실패 복구 프레임을 구분합니다.
-
-![정상 로딩 결과](Media/Addressables-loaded.png)
-
-Windows Development Player에서도 실제 창을 표시한 상태로 자동 검사를 통과했습니다.
-
-[Player 캡처](Media/Addressables-player.png) · [Player 검사 결과](Media/Addressables-player-verification.json)

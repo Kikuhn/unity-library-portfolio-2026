@@ -6,14 +6,7 @@
   "unity": "6000.0",
   "dependencies": {
     "com.kikuhn.panutilityessential": "1.0.0"
-	},
-  "samples": [
-    {
-      "displayName": "CharacterControllerPro Sample",
-      "description": "Manual CharacterControllerPro setup prefab and lifecycle-safe sample controllers.",
-      "path": "Samples~/CharacterControllerPro Sample"
-    }
-  ],
+  },
   "author": {
     "name": "Kikuhn"
   }

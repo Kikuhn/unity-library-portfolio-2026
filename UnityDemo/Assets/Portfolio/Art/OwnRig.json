@@ -1,0 +1,92 @@
+{
+  "skeleton": {
+    "spine": "4.3.39",
+    "hash": "portfolio-own-rig-v1"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "body",
+      "parent": "root",
+      "length": 3,
+      "rotation": 90
+    },
+    {
+      "name": "arm",
+      "parent": "body",
+      "x": 2.5,
+      "length": 2,
+      "rotation": -60
+    },
+    {
+      "name": "forearm",
+      "parent": "arm",
+      "x": 2,
+      "length": 1.6,
+      "rotation": -20
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {}
+    }
+  ],
+  "animations": {
+    "idle": {
+      "bones": {
+        "body": {
+          "rotate": [
+            {
+              "value": -5
+            },
+            {
+              "time": 1,
+              "value": 5
+            },
+            {
+              "time": 2,
+              "value": -5
+            }
+          ]
+        }
+      }
+    },
+    "swing": {
+      "bones": {
+        "arm": {
+          "rotate": [
+            {
+              "value": -50
+            },
+            {
+              "time": 0.5,
+              "value": 80
+            },
+            {
+              "time": 1,
+              "value": -50
+            }
+          ]
+        },
+        "forearm": {
+          "rotate": [
+            {
+              "value": 0
+            },
+            {
+              "time": 0.5,
+              "value": 50
+            },
+            {
+              "time": 1,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

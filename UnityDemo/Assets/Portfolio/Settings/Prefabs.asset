@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acf5a6236969c6a42aac468e5f0943a6, type: 3}
+  m_Name: Prefabs
+  m_EditorClassIdentifier: Pan.StageGenerators::Pan.StageGenerators.StageGeneratorSettingPrefabSbject
+  setting:
+    gridCompatibleSnapSetting: {fileID: 11400000, guid: d9ef1ac0e1a9cf14d93c4b32ffc2c923, type: 2}
+    roomPrefabList:
+    - {fileID: 6166961615448559048, guid: 9a74cee47e6053d4f9f1a76586602f61, type: 3}
+    hallwayPrefabList:
+    - {fileID: 7562651823966034373, guid: 0511fa3f0c05fb94ca8b841e6d9898dc, type: 3}
+    hallwayEdgePrefabList:
+    - {fileID: 7597806377962043459, guid: 016a7da00aa91ac4fbca8672c44f779e, type: 3}

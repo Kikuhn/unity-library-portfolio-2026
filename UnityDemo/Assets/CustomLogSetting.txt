@@ -1,0 +1,1007 @@
+﻿
+======================================================
+START LOGGING  [2026-09-06.04:31:53]
+======================================================
+
+SETTING:       [Stage]
+
+------------------------------------------------------
+■ Ready DestroyPrevious
+
+▶ Success DestroyPrevious!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready RefreshRandom
+
+	Seed:         12345
+
+▶ Success RefreshRandom!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateGridManager
+
+▶ Success GenerateGridManager!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateSpaceList
+
+	Space Count:                 25
+
+	Min Space Node Count:        1
+	Max Space Node Count:        4
+
+	Min Space Node Down Count:   0
+	Min Space Node Up Count:     0
+	Min Space Node Left Count:   0
+	Min Space Node Right Count:  0
+
+	Max Space Node Down Count:   1
+	Max Space Node Up Count:     1
+	Max Space Node Left Count:   1
+	Max Space Node Right Count:  1
+
+▶ Success GenerateSpaceList!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready Place
+
+# Ready Gen1_RoomCreater
+
+	!Error! Cannot find a room that can be created in space	size: (10, 10)
+
+	# Failure Gen1_RoomCreater
+
+▷ Failure Place
+------------------------------------------------------
+
+
+Error Detected!
+	System.Exception: Generate 실패, Place 생성 실패
+  at Pan.StageGenerators.StageGenerator+GenerateManager.ExecuteGenerate (System.Nullable`1[T] customSeed, System.Nullable`1[T] isRegenerateCount) [0x0023e] in D:\REVER\03 Savior\99 기타\260906 넥토리얼 준비\작업\공개준비\unity-library-portfolio-2026\Libraries\PanStageGenerator2\StageGenerator\StageGenerator_pGenerateManager.cs:324 
+Reconstruction ConnectHallways Count:    [0]
+
+TOTAL TIME:    [0.ms]
+END LOGGING    [2026-09-06.04:31:53]
+======================================================
+======================================================
+START LOGGING (ReGenerate:1) [2026-09-06.04:31:53]
+======================================================
+
+SETTING:       [Stage]
+
+------------------------------------------------------
+■ Ready DestroyPrevious
+
+▶ Success DestroyPrevious!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready RefreshRandom
+
+	Seed:         -1447623549
+
+▶ Success RefreshRandom!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateGridManager
+
+▶ Success GenerateGridManager!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateSpaceList
+
+	Space Count:                 25
+
+	Min Space Node Count:        1
+	Max Space Node Count:        4
+
+	Min Space Node Down Count:   0
+	Min Space Node Up Count:     0
+	Min Space Node Left Count:   0
+	Min Space Node Right Count:  0
+
+	Max Space Node Down Count:   1
+	Max Space Node Up Count:     1
+	Max Space Node Left Count:   1
+	Max Space Node Right Count:  1
+
+▶ Success GenerateSpaceList!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready Place
+
+# Ready Gen1_RoomCreater
+
+	!Error! Cannot find a room that can be created in space	size: (10, 10)
+
+	# Failure Gen1_RoomCreater
+
+▷ Failure Place
+------------------------------------------------------
+
+
+Error Detected!
+	System.Exception: Generate 실패, Place 생성 실패
+  at Pan.StageGenerators.StageGenerator+GenerateManager.ExecuteGenerate (System.Nullable`1[T] customSeed, System.Nullable`1[T] isRegenerateCount) [0x0023e] in D:\REVER\03 Savior\99 기타\260906 넥토리얼 준비\작업\공개준비\unity-library-portfolio-2026\Libraries\PanStageGenerator2\StageGenerator\StageGenerator_pGenerateManager.cs:324 
+Reconstruction ConnectHallways Count:    [0]
+
+TOTAL TIME:    [0.ms]
+END LOGGING    [2026-09-06.04:31:53]
+======================================================
+======================================================
+START LOGGING (ReGenerate:2) [2026-09-06.04:31:53]
+======================================================
+
+SETTING:       [Stage]
+
+------------------------------------------------------
+■ Ready DestroyPrevious
+
+▶ Success DestroyPrevious!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready RefreshRandom
+
+	Seed:         -1404105635
+
+▶ Success RefreshRandom!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateGridManager
+
+▶ Success GenerateGridManager!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateSpaceList
+
+	Space Count:                 25
+
+	Min Space Node Count:        2
+	Max Space Node Count:        3
+
+	Min Space Node Down Count:   0
+	Min Space Node Up Count:     0
+	Min Space Node Left Count:   0
+	Min Space Node Right Count:  0
+
+	Max Space Node Down Count:   1
+	Max Space Node Up Count:     1
+	Max Space Node Left Count:   1
+	Max Space Node Right Count:  1
+
+▶ Success GenerateSpaceList!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready Place
+
+# Ready Gen1_RoomCreater
+
+	!Error! Cannot find a room that can be created in space	size: (10, 10)
+
+	# Failure Gen1_RoomCreater
+
+▷ Failure Place
+------------------------------------------------------
+
+
+Error Detected!
+	System.Exception: Generate 실패, Place 생성 실패
+  at Pan.StageGenerators.StageGenerator+GenerateManager.ExecuteGenerate (System.Nullable`1[T] customSeed, System.Nullable`1[T] isRegenerateCount) [0x0023e] in D:\REVER\03 Savior\99 기타\260906 넥토리얼 준비\작업\공개준비\unity-library-portfolio-2026\Libraries\PanStageGenerator2\StageGenerator\StageGenerator_pGenerateManager.cs:324 
+Reconstruction ConnectHallways Count:    [0]
+
+TOTAL TIME:    [0.ms]
+END LOGGING    [2026-09-06.04:31:53]
+======================================================
+======================================================
+START LOGGING (ReGenerate:3) [2026-09-06.04:31:53]
+======================================================
+
+SETTING:       [Stage]
+
+------------------------------------------------------
+■ Ready DestroyPrevious
+
+▶ Success DestroyPrevious!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready RefreshRandom
+
+	Seed:         -938053326
+
+▶ Success RefreshRandom!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateGridManager
+
+▶ Success GenerateGridManager!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateSpaceList
+
+	Space Count:                 25
+
+	Min Space Node Count:        1
+	Max Space Node Count:        4
+
+	Min Space Node Down Count:   0
+	Min Space Node Up Count:     0
+	Min Space Node Left Count:   0
+	Min Space Node Right Count:  0
+
+	Max Space Node Down Count:   1
+	Max Space Node Up Count:     1
+	Max Space Node Left Count:   1
+	Max Space Node Right Count:  1
+
+▶ Success GenerateSpaceList!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready Place
+
+# Ready Gen1_RoomCreater
+
+	!Error! Cannot find a room that can be created in space	size: (10, 10)
+
+	# Failure Gen1_RoomCreater
+
+▷ Failure Place
+------------------------------------------------------
+
+
+Error Detected!
+	System.Exception: Generate 실패, Place 생성 실패
+  at Pan.StageGenerators.StageGenerator+GenerateManager.ExecuteGenerate (System.Nullable`1[T] customSeed, System.Nullable`1[T] isRegenerateCount) [0x0023e] in D:\REVER\03 Savior\99 기타\260906 넥토리얼 준비\작업\공개준비\unity-library-portfolio-2026\Libraries\PanStageGenerator2\StageGenerator\StageGenerator_pGenerateManager.cs:324 
+Reconstruction ConnectHallways Count:    [0]
+
+TOTAL TIME:    [0.ms]
+END LOGGING    [2026-09-06.04:31:53]
+======================================================
+======================================================
+START LOGGING  [2026-09-06.04:38:30]
+======================================================
+
+SETTING:       [Stage]
+
+------------------------------------------------------
+■ Ready DestroyPrevious
+
+▶ Success DestroyPrevious!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready RefreshRandom
+
+	Seed:         12345
+
+▶ Success RefreshRandom!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateGridManager
+
+▶ Success GenerateGridManager!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateSpaceList
+
+	Space Count:                 25
+
+	Min Space Node Count:        1
+	Max Space Node Count:        4
+
+	Min Space Node Down Count:   0
+	Min Space Node Up Count:     0
+	Min Space Node Left Count:   0
+	Min Space Node Right Count:  0
+
+	Max Space Node Down Count:   1
+	Max Space Node Up Count:     1
+	Max Space Node Left Count:   1
+	Max Space Node Right Count:  1
+
+▶ Success GenerateSpaceList!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready Place
+
+# Ready Gen1_RoomCreater
+
+	!Error! Cannot find a room that can be created in space	size: (10, 10)
+
+	# Failure Gen1_RoomCreater
+
+▷ Failure Place
+------------------------------------------------------
+
+
+Error Detected!
+	System.Exception: Generate 실패, Place 생성 실패
+  at Pan.StageGenerators.StageGenerator+GenerateManager.ExecuteGenerate (System.Nullable`1[T] customSeed, System.Nullable`1[T] isRegenerateCount) [0x0023e] in D:\REVER\03 Savior\99 기타\260906 넥토리얼 준비\작업\공개준비\unity-library-portfolio-2026\Libraries\PanStageGenerator2\StageGenerator\StageGenerator_pGenerateManager.cs:324 
+Reconstruction ConnectHallways Count:    [0]
+
+TOTAL TIME:    [0.ms]
+END LOGGING    [2026-09-06.04:38:30]
+======================================================
+======================================================
+START LOGGING (ReGenerate:1) [2026-09-06.04:38:30]
+======================================================
+
+SETTING:       [Stage]
+
+------------------------------------------------------
+■ Ready DestroyPrevious
+
+▶ Success DestroyPrevious!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready RefreshRandom
+
+	Seed:         -1965375228
+
+▶ Success RefreshRandom!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateGridManager
+
+▶ Success GenerateGridManager!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateSpaceList
+
+	Space Count:                 25
+
+	Min Space Node Count:        2
+	Max Space Node Count:        4
+
+	Min Space Node Down Count:   0
+	Min Space Node Up Count:     0
+	Min Space Node Left Count:   0
+	Min Space Node Right Count:  0
+
+	Max Space Node Down Count:   1
+	Max Space Node Up Count:     1
+	Max Space Node Left Count:   1
+	Max Space Node Right Count:  1
+
+▶ Success GenerateSpaceList!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready Place
+
+# Ready Gen1_RoomCreater
+
+	!Error! Cannot find a room that can be created in space	size: (10, 10)
+
+	# Failure Gen1_RoomCreater
+
+▷ Failure Place
+------------------------------------------------------
+
+
+Error Detected!
+	System.Exception: Generate 실패, Place 생성 실패
+  at Pan.StageGenerators.StageGenerator+GenerateManager.ExecuteGenerate (System.Nullable`1[T] customSeed, System.Nullable`1[T] isRegenerateCount) [0x0023e] in D:\REVER\03 Savior\99 기타\260906 넥토리얼 준비\작업\공개준비\unity-library-portfolio-2026\Libraries\PanStageGenerator2\StageGenerator\StageGenerator_pGenerateManager.cs:324 
+Reconstruction ConnectHallways Count:    [0]
+
+TOTAL TIME:    [0.ms]
+END LOGGING    [2026-09-06.04:38:30]
+======================================================
+======================================================
+START LOGGING (ReGenerate:2) [2026-09-06.04:38:30]
+======================================================
+
+SETTING:       [Stage]
+
+------------------------------------------------------
+■ Ready DestroyPrevious
+
+▶ Success DestroyPrevious!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready RefreshRandom
+
+	Seed:         1893470760
+
+▶ Success RefreshRandom!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateGridManager
+
+▶ Success GenerateGridManager!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateSpaceList
+
+	Space Count:                 25
+
+	Min Space Node Count:        1
+	Max Space Node Count:        4
+
+	Min Space Node Down Count:   0
+	Min Space Node Up Count:     0
+	Min Space Node Left Count:   0
+	Min Space Node Right Count:  0
+
+	Max Space Node Down Count:   1
+	Max Space Node Up Count:     1
+	Max Space Node Left Count:   1
+	Max Space Node Right Count:  1
+
+▶ Success GenerateSpaceList!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready Place
+
+# Ready Gen1_RoomCreater
+
+	!Error! Cannot find a room that can be created in space	size: (10, 10)
+
+	# Failure Gen1_RoomCreater
+
+▷ Failure Place
+------------------------------------------------------
+
+
+Error Detected!
+	System.Exception: Generate 실패, Place 생성 실패
+  at Pan.StageGenerators.StageGenerator+GenerateManager.ExecuteGenerate (System.Nullable`1[T] customSeed, System.Nullable`1[T] isRegenerateCount) [0x0023e] in D:\REVER\03 Savior\99 기타\260906 넥토리얼 준비\작업\공개준비\unity-library-portfolio-2026\Libraries\PanStageGenerator2\StageGenerator\StageGenerator_pGenerateManager.cs:324 
+Reconstruction ConnectHallways Count:    [0]
+
+TOTAL TIME:    [0.ms]
+END LOGGING    [2026-09-06.04:38:30]
+======================================================
+======================================================
+START LOGGING (ReGenerate:3) [2026-09-06.04:38:30]
+======================================================
+
+SETTING:       [Stage]
+
+------------------------------------------------------
+■ Ready DestroyPrevious
+
+▶ Success DestroyPrevious!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready RefreshRandom
+
+	Seed:         -1259565289
+
+▶ Success RefreshRandom!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateGridManager
+
+▶ Success GenerateGridManager!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateSpaceList
+
+	Space Count:                 25
+
+	Min Space Node Count:        1
+	Max Space Node Count:        4
+
+	Min Space Node Down Count:   0
+	Min Space Node Up Count:     0
+	Min Space Node Left Count:   0
+	Min Space Node Right Count:  0
+
+	Max Space Node Down Count:   1
+	Max Space Node Up Count:     1
+	Max Space Node Left Count:   1
+	Max Space Node Right Count:  1
+
+▶ Success GenerateSpaceList!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready Place
+
+# Ready Gen1_RoomCreater
+
+	!Error! Cannot find a room that can be created in space	size: (10, 10)
+
+	# Failure Gen1_RoomCreater
+
+▷ Failure Place
+------------------------------------------------------
+
+
+Error Detected!
+	System.Exception: Generate 실패, Place 생성 실패
+  at Pan.StageGenerators.StageGenerator+GenerateManager.ExecuteGenerate (System.Nullable`1[T] customSeed, System.Nullable`1[T] isRegenerateCount) [0x0023e] in D:\REVER\03 Savior\99 기타\260906 넥토리얼 준비\작업\공개준비\unity-library-portfolio-2026\Libraries\PanStageGenerator2\StageGenerator\StageGenerator_pGenerateManager.cs:324 
+Reconstruction ConnectHallways Count:    [0]
+
+TOTAL TIME:    [0.ms]
+END LOGGING    [2026-09-06.04:38:30]
+======================================================
+======================================================
+START LOGGING  [2026-09-06.04:42:53]
+======================================================
+
+SETTING:       [Stage]
+
+------------------------------------------------------
+■ Ready DestroyPrevious
+
+▶ Success DestroyPrevious!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready RefreshRandom
+
+	Seed:         12345
+
+▶ Success RefreshRandom!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateGridManager
+
+▶ Success GenerateGridManager!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateSpaceList
+
+	Space Count:                 9
+
+	Min Space Node Count:        1
+	Max Space Node Count:        3
+
+	Min Space Node Down Count:   0
+	Min Space Node Up Count:     0
+	Min Space Node Left Count:   0
+	Min Space Node Right Count:  0
+
+	Max Space Node Down Count:   1
+	Max Space Node Up Count:     1
+	Max Space Node Left Count:   1
+	Max Space Node Right Count:  1
+
+▶ Success GenerateSpaceList!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready Place
+
+# Ready Gen1_RoomCreater
+
+	# Success Gen1_RoomCreater!
+
+# Ready Gen3_ConnectDoorsHallways
+
+	# Success Gen3_ConnectDoorsHallways!
+
+▶ Success Place!
+------------------------------------------------------
+
+Reconstruction ConnectHallways Count:    [0]
+
+TOTAL TIME:    [0.ms]
+END LOGGING    [2026-09-06.04:42:53]
+======================================================
+======================================================
+START LOGGING  [2026-09-06.14:30:48]
+======================================================
+
+SETTING:       [Stage]
+
+------------------------------------------------------
+■ Ready DestroyPrevious
+
+▶ Success DestroyPrevious!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready RefreshRandom
+
+	Seed:         12345
+
+▶ Success RefreshRandom!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateGridManager
+
+▶ Success GenerateGridManager!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateSpaceList
+
+	Space Count:                 9
+
+	Min Space Node Count:        1
+	Max Space Node Count:        3
+
+	Min Space Node Down Count:   0
+	Min Space Node Up Count:     0
+	Min Space Node Left Count:   0
+	Min Space Node Right Count:  0
+
+	Max Space Node Down Count:   1
+	Max Space Node Up Count:     1
+	Max Space Node Left Count:   1
+	Max Space Node Right Count:  1
+
+▶ Success GenerateSpaceList!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready Place
+
+# Ready Gen1_RoomCreater
+
+	# Success Gen1_RoomCreater!
+
+# Ready Gen3_ConnectDoorsHallways
+
+	# Success Gen3_ConnectDoorsHallways!
+
+▶ Success Place!
+------------------------------------------------------
+
+Reconstruction ConnectHallways Count:    [0]
+
+TOTAL TIME:    [0.ms]
+END LOGGING    [2026-09-06.14:30:48]
+======================================================
+======================================================
+START LOGGING  [2026-09-06.14:30:53]
+======================================================
+
+SETTING:       [Stage]
+
+------------------------------------------------------
+■ Ready DestroyPrevious
+
+▶ Success DestroyPrevious!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready RefreshRandom
+
+	Seed:         12345
+
+▶ Success RefreshRandom!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateGridManager
+
+▶ Success GenerateGridManager!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateSpaceList
+
+	Space Count:                 9
+
+	Min Space Node Count:        1
+	Max Space Node Count:        3
+
+	Min Space Node Down Count:   0
+	Min Space Node Up Count:     0
+	Min Space Node Left Count:   0
+	Min Space Node Right Count:  0
+
+	Max Space Node Down Count:   1
+	Max Space Node Up Count:     1
+	Max Space Node Left Count:   1
+	Max Space Node Right Count:  1
+
+▶ Success GenerateSpaceList!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready Place
+
+# Ready Gen1_RoomCreater
+
+	# Success Gen1_RoomCreater!
+
+# Ready Gen3_ConnectDoorsHallways
+
+	# Success Gen3_ConnectDoorsHallways!
+
+▶ Success Place!
+------------------------------------------------------
+
+Reconstruction ConnectHallways Count:    [0]
+
+TOTAL TIME:    [0.ms]
+END LOGGING    [2026-09-06.14:30:53]
+======================================================
+======================================================
+START LOGGING  [2026-09-06.14:30:53]
+======================================================
+
+SETTING:       [Stage]
+
+------------------------------------------------------
+■ Ready DestroyPrevious
+
+▶ Success DestroyPrevious!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready RefreshRandom
+
+	Seed:         12346
+
+▶ Success RefreshRandom!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateGridManager
+
+▶ Success GenerateGridManager!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateSpaceList
+
+	Space Count:                 5
+
+	Min Space Node Count:        2
+	Max Space Node Count:        2
+
+	Min Space Node Down Count:   0
+	Min Space Node Up Count:     0
+	Min Space Node Left Count:   0
+	Min Space Node Right Count:  0
+
+	Max Space Node Down Count:   1
+	Max Space Node Up Count:     1
+	Max Space Node Left Count:   1
+	Max Space Node Right Count:  1
+
+▶ Success GenerateSpaceList!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready Place
+
+# Ready Gen1_RoomCreater
+
+	# Success Gen1_RoomCreater!
+
+# Ready Gen3_ConnectDoorsHallways
+
+	# Success Gen3_ConnectDoorsHallways!
+
+▶ Success Place!
+------------------------------------------------------
+
+Reconstruction ConnectHallways Count:    [0]
+
+TOTAL TIME:    [0.ms]
+END LOGGING    [2026-09-06.14:30:53]
+======================================================
+======================================================
+START LOGGING  [2026-09-06.14:43:58]
+======================================================
+
+SETTING:       [Stage]
+
+------------------------------------------------------
+■ Ready DestroyPrevious
+
+▶ Success DestroyPrevious!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready RefreshRandom
+
+	Seed:         12345
+
+▶ Success RefreshRandom!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateGridManager
+
+▶ Success GenerateGridManager!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateSpaceList
+
+	Space Count:                 9
+
+	Min Space Node Count:        1
+	Max Space Node Count:        3
+
+	Min Space Node Down Count:   0
+	Min Space Node Up Count:     0
+	Min Space Node Left Count:   0
+	Min Space Node Right Count:  0
+
+	Max Space Node Down Count:   1
+	Max Space Node Up Count:     1
+	Max Space Node Left Count:   1
+	Max Space Node Right Count:  1
+
+▶ Success GenerateSpaceList!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready Place
+
+# Ready Gen1_RoomCreater
+
+	# Success Gen1_RoomCreater!
+
+# Ready Gen3_ConnectDoorsHallways
+
+	# Success Gen3_ConnectDoorsHallways!
+
+▶ Success Place!
+------------------------------------------------------
+
+Reconstruction ConnectHallways Count:    [0]
+
+TOTAL TIME:    [0.ms]
+END LOGGING    [2026-09-06.14:43:58]
+======================================================
+======================================================
+START LOGGING  [2026-09-06.14:44:02]
+======================================================
+
+SETTING:       [Stage]
+
+------------------------------------------------------
+■ Ready DestroyPrevious
+
+▶ Success DestroyPrevious!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready RefreshRandom
+
+	Seed:         12345
+
+▶ Success RefreshRandom!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateGridManager
+
+▶ Success GenerateGridManager!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateSpaceList
+
+	Space Count:                 9
+
+	Min Space Node Count:        1
+	Max Space Node Count:        3
+
+	Min Space Node Down Count:   0
+	Min Space Node Up Count:     0
+	Min Space Node Left Count:   0
+	Min Space Node Right Count:  0
+
+	Max Space Node Down Count:   1
+	Max Space Node Up Count:     1
+	Max Space Node Left Count:   1
+	Max Space Node Right Count:  1
+
+▶ Success GenerateSpaceList!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready Place
+
+# Ready Gen1_RoomCreater
+
+	# Success Gen1_RoomCreater!
+
+# Ready Gen3_ConnectDoorsHallways
+
+	# Success Gen3_ConnectDoorsHallways!
+
+▶ Success Place!
+------------------------------------------------------
+
+Reconstruction ConnectHallways Count:    [0]
+
+TOTAL TIME:    [0.ms]
+END LOGGING    [2026-09-06.14:44:02]
+======================================================
+======================================================
+START LOGGING  [2026-09-06.14:44:02]
+======================================================
+
+SETTING:       [Stage]
+
+------------------------------------------------------
+■ Ready DestroyPrevious
+
+▶ Success DestroyPrevious!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready RefreshRandom
+
+	Seed:         12346
+
+▶ Success RefreshRandom!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateGridManager
+
+▶ Success GenerateGridManager!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready GenerateSpaceList
+
+	Space Count:                 5
+
+	Min Space Node Count:        2
+	Max Space Node Count:        2
+
+	Min Space Node Down Count:   0
+	Min Space Node Up Count:     0
+	Min Space Node Left Count:   0
+	Min Space Node Right Count:  0
+
+	Max Space Node Down Count:   1
+	Max Space Node Up Count:     1
+	Max Space Node Left Count:   1
+	Max Space Node Right Count:  1
+
+▶ Success GenerateSpaceList!
+------------------------------------------------------
+
+------------------------------------------------------
+■ Ready Place
+
+# Ready Gen1_RoomCreater
+
+	# Success Gen1_RoomCreater!
+
+# Ready Gen3_ConnectDoorsHallways
+
+	# Success Gen3_ConnectDoorsHallways!
+
+▶ Success Place!
+------------------------------------------------------
+
+Reconstruction ConnectHallways Count:    [0]
+
+TOTAL TIME:    [0.ms]
+END LOGGING    [2026-09-06.14:44:02]
+======================================================

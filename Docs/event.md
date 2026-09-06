@@ -12,7 +12,7 @@
 var feature = eventAble.Require<DemoEventValue>();
 ```
 
-설정과 의존성이 준비된 호출 형태를 설명하는 예시입니다. 새 Unity 샘플에서 컴파일·실행한 결과는 아직 없습니다.
+설정과 의존성이 준비된 호출 형태를 설명하는 예시입니다. 아래 실행 근거에서 새 Unity 샘플의 실제 호출·검증 범위를 확인할 수 있습니다.
 
 ## 3. 핵심 설계
 
@@ -35,4 +35,13 @@ RequireInternal은 기존 부착값을 먼저 확인합니다. 새 값은 활성
 
 [시연 명세](demo-specs.md#event) · [테스트 파일 목록](inventory.md)
 
-현재 상태: 구현·호출 흐름 정적 대조. 새 샘플 실행, 화면 촬영, 배포 의존성 검증은 미실행입니다. 성능 수치와 전후 비교 영상은 만들어 넣지 않습니다.
+새 Unity 샘플에서 같은 타입 재요구, 해제·재사용, 활성화 예외 복구와 재진입 검사를 통과했습니다. 이는 Codex가 제작한 시연 코드의 실행 결과이며 기존 게임의 개발 성과와 구분합니다. 공개본의 독립 설치 검증과 직접 기여 범위 확정은 남아 있습니다.
+
+
+[시연 코드](../UnityDemo/Assets/Portfolio/Runtime/PortfolioDemo.cs) · [무음 MP4 초안](Media/Event-draft.mp4) · [검사 결과](Media/Event-verification.json)
+
+![Event 실행 화면](Media/Event.png)
+
+Windows Development Player에서도 실제 창을 표시한 상태로 자동 검사를 통과했습니다.
+
+[Player 캡처](Media/Event-player.png) · [Player 검사 결과](Media/Event-player-verification.json)

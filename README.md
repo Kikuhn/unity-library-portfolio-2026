@@ -1,14 +1,14 @@
 # 정판영 — Unity 라이브러리 포트폴리오
 
-현재 소스의 검토용 스냅샷입니다. 시연 프로젝트·영상·새 실행 검증은 준비 중이며 제출 완료본이 아닙니다.
+현재 소스와 편집 가능한 Unity 시연 프로젝트의 검토용 스냅샷입니다. 새 실행 검증과 촬영 초안을 순차 반영하고 있으며 제출 완료본이 아닙니다.
 
-| 대표 사례 | 설명·코드 | 시연 명세 |
+| 대표 사례 | 설명·코드 | 시연 영상 |
 | --- | --- | --- |
-| 설정으로 방과 복도를 생성하는 시스템 | [PanStageGenerator2](Docs/stage.md) | [준비할 장면](Docs/demo-specs.md#stage) |
-| 재사용하는 기능의 부착과 수명 관리 | [PanEventManager](Docs/event.md) | [준비할 장면](Docs/demo-specs.md#event) |
-| 비동기 로딩 결과와 핸들 소유권 | [PanAddressableManager](Docs/addressable.md) | [준비할 장면](Docs/demo-specs.md#addressable) |
-| 다수 2D 요소를 데이터와 Job으로 갱신 | [PanHighDensityElement](Docs/density.md) | [준비할 장면](Docs/demo-specs.md#density) |
-| 모션 전환 중 방향과 이산 정책의 처리 | [PanSpinePackage](Docs/spine.md) | [준비할 장면](Docs/demo-specs.md#spine) |
+| 설정으로 방과 복도를 생성하는 시스템 | [PanStageGenerator2](Docs/stage.md) | [영상 초안](Docs/Media/Stage-draft.mp4) |
+| 재사용하는 기능의 부착과 수명 관리 | [PanEventManager](Docs/event.md) | [영상 초안](Docs/Media/Event-draft.mp4) |
+| 비동기 로딩 결과와 핸들 소유권 | [PanAddressableManager](Docs/addressable.md) | [영상 초안](Docs/Media/Addressables-draft.mp4) |
+| 다수 2D 요소를 데이터와 Job으로 갱신 | [PanHighDensityElement](Docs/density.md) | [영상 초안](Docs/Media/Density-draft.mp4) |
+| 모션 전환 중 방향과 이산 정책의 처리 | [PanSpinePackage](Docs/spine.md) | [영상 초안](Docs/Media/Spine-draft.mp4) |
 
 [14개 패키지 지도](Docs/inventory.md) · [설치 조건과 공개 범위](Docs/dependencies.md) · [Unity 시연 프로젝트 상태](UnityDemo/README.md)
 
@@ -17,3 +17,6 @@
 ## 기여와 검증 범위
 
 본인 개발 라이브러리를 기반으로 구성했습니다. 각 설계의 최초 동기, 직접 구현·검증 범위와 AI 지원 범위는 확인 중입니다. 소스와 테스트 존재는 이번 Unity 실행 성공이나 단독 작성의 증거로 간주하지 않습니다. 기존 개발 기록과 새 시연 결과는 구분합니다.
+
+
+새 Unity 시연 5개와 Windows Development Player 측정 3회의 원자료는 [Docs/Media](Docs/Media)에 있습니다. 시연 코드·도형·자동 검사는 Codex가 제작했고 사용자가 후보정하는 초안입니다. 기존 라이브러리의 개인 개발 기여와 구분합니다.

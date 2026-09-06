@@ -8,13 +8,6 @@
     "com.kikuhn.panutilityessential": "1.0.0",
     "com.unity.mathematics": "1.3.3"
   },
-  "samples": [
-    {
-      "displayName": "Display Material Samples",
-      "description": "Manual material samples used while checking grid display helpers.",
-      "path": "Samples~/Display Materials"
-    }
-  ],
   "author": {
     "name": "Kikuhn"
   }

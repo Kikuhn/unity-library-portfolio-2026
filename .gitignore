@@ -7,3 +7,17 @@ UnityDemo/UserSettings/
 *.csproj
 *.sln
 .env*
+
+# Local licensed tools; never publish these files.
+UnityDemo/Assets/LocalDependencies/
+UnityDemo/Assets/LocalDependencies.meta
+UnityDemo/Recordings/
+UnityDemo/Builds/
+UnityDemo/.vs/
+
+# Generated Addressables build state and licensed editor folders.
+UnityDemo/Assets/AddressableAssetsData/Windows/
+UnityDemo/Assets/AddressableAssetsData/Windows.meta
+UnityDemo/Assets/AddressableAssetsData/link.xml*
+UnityDemo/Assets/Plugins/Sirenix/
+UnityDemo/Assets/Plugins/Sirenix.meta

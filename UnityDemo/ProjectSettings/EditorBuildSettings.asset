@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Portfolio/Scenes/Menu.unity
+    guid: 828ec612832d7894eb80b1c7a4320b1e
+  - enabled: 1
+    path: Assets/Portfolio/Scenes/Stage.unity
+    guid: 55dfa486efbbca94fb5c27e0a27c5183
+  - enabled: 1
+    path: Assets/Portfolio/Scenes/Event.unity
+    guid: 0d312fe570fb0454998ba6ae49e589b3
+  - enabled: 1
+    path: Assets/Portfolio/Scenes/Addressables.unity
+    guid: b19b5a96e10cbe54da17721d933c922e
+  - enabled: 1
+    path: Assets/Portfolio/Scenes/Density.unity
+    guid: dc43045f03845e044a98e2f482632185
+  - enabled: 1
+    path: Assets/Portfolio/Scenes/Spine.unity
+    guid: 77a37777ef27f7447899d682fd0ccf2d
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 939beafd25edfbc4298e0af520fe18e0, type: 2}
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 99f9c9493070a9d4c979a8fec7c5a8d3, type: 2}

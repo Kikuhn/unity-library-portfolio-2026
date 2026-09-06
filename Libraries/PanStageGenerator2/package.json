@@ -11,13 +11,6 @@
     "com.unity.collections": "2.6.6",
     "com.unity.burst": "1.8.29"
   },
-  "samples": [
-    {
-      "displayName": "Custom Event Samples",
-      "description": "Manual StageGenerator custom event scripts and assets.",
-      "path": "Samples~/Custom Events"
-    }
-  ],
   "author": {
     "name": "Kikuhn"
   }

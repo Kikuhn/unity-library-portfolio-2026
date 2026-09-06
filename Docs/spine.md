@@ -12,7 +12,7 @@ Spine의 일반 모션 보간을 유지하면서 전환 중 방향 변경과 Pla
 // AnimationIgnoreBlendManager를 임의로 중복 생성하지 않습니다.
 ```
 
-설정과 의존성이 준비된 호출 형태를 설명하는 예시입니다. 새 Unity 샘플에서 컴파일·실행한 결과는 아직 없습니다.
+설정과 의존성이 준비된 호출 형태를 설명하는 예시입니다. 아래 실행 근거에서 새 Unity 샘플의 실제 호출·검증 범위를 확인할 수 있습니다.
 
 ## 3. 핵심 설계
 
@@ -36,4 +36,15 @@ AnimationIgnoreBlendManager는 태그된 제약조건에 연결된 정책 Timeli
 
 [시연 명세](demo-specs.md#spine) · [테스트 파일 목록](inventory.md)
 
-현재 상태: 구현·호출 흐름 정적 대조. 새 샘플 실행, 화면 촬영, 배포 의존성 검증은 미실행입니다. 성능 수치와 전후 비교 영상은 만들어 넣지 않습니다.
+새 Unity 샘플에서 자체 최소 리그의 초기화, 모션 전환, 방향 변경, 재진입 검사를 통과했습니다. 이는 Codex가 제작한 시연 코드의 실행 결과이며 기존 게임의 개발 성과와 구분합니다. 공개본의 독립 설치 검증과 직접 기여 범위 확정은 남아 있습니다.
+
+
+[시연 코드](../UnityDemo/Assets/Portfolio/Runtime/PortfolioDemo.cs) · [무음 MP4 초안](Media/Spine-draft.mp4) · [검사 결과](Media/Spine-verification.json)
+
+![Spine 실행 화면](Media/Spine.png)
+
+이 최소 리그는 기존 IgnoreBlend 정책 보정 오류를 재현하지 않습니다. 일반 전환 시연으로만 해석합니다.
+
+Windows Development Player에서도 실제 창을 표시한 상태로 자동 검사를 통과했습니다.
+
+[Player 캡처](Media/Spine-player.png) · [Player 검사 결과](Media/Spine-player-verification.json)

@@ -1,6 +1,12 @@
 # Unity Library Lab — 시연 초안
 
-Unity **6000.5.6f1**에서 Codex가 제작하는 편집 가능한 샘플입니다. 시작 화면과 다섯 사례의 씬·자체 도형·설정 에셋을 생성했습니다. **다섯 사례의 Editor·Windows Player 자동 검사와 1차 촬영을 완료했습니다. 제출 완료본은 아닙니다.**
+Unity **6000.5.6f1**에서 Codex가 제작하는 편집 가능한 샘플입니다. 시작 화면과 다섯 사례의 씬·자체 도형·설정 에셋을 생성했습니다. 기존 사례의 검사·촬영 기록은 이전 버전의 결과입니다. 최신 Stage 씬은 에디터 시연용으로 재구성했으며 생성·시드 테스트를 하지 않았습니다. 제출 완료본은 아닙니다.
+
+## Stage 에디터 시연
+
+`Assets/Portfolio/Scenes/Stage.unity` 또는 `Stage_MultiDoor.unity`를 열고 **Stage Generator**의 기존 Inspector에서 생성합니다. 씬별 설정 SO와 프리팹은 `Assets/Portfolio/StageScenes/`에 있습니다. MultiDoor의 방 13종은 방향마다 3개씩 문 후보를 가지며, 실제 연결 개수는 배치와 설정에 따라 달라집니다. 추가 시연용 기즈모·상시 갱신 코드와 확장·XZ 씬은 포함하지 않습니다. [Stage 편집 안내](STAGE_촬영안내.md)를 참고하세요.
+
+아래 메뉴·Player 자동 검사 안내 중 Stage 항목은 이전 구성에 해당합니다. 최신 두 Stage 씬은 에디터에서 직접 생성해 사용합니다.
 
 ## 열기와 편집
 

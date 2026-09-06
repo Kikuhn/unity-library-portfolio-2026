@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d0d3887c0e368a449aa6084ab97f29c, type: 3}
+  m_Name: GridCompatible2SingletonSettingSbject
+  m_EditorClassIdentifier: Pan.GridCompatibles2::Pan.GridCompatibles2.GridCompatible2SingletonSettingSbject
+  UseGridGizmo: 1
+  UseGridGizmoOnlySelect: 1
+  GridColor:
+    Use: 0
+    Color: {r: 1, g: 1, b: 1, a: 1}
+  GridLineColor:
+    Use: 0
+    Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  GridCenterColor:
+    Use: 0
+    Color: {r: 1, g: 0, b: 0, a: 1}
+  FloorToCeilingArrowColor:
+    Use: 0
+    Color: {r: 1, g: 0, b: 0, a: 1}
+  GridUnitLength_GizmoMarkRadius: 0.5
+  GridUnitLength_GizmoTextCorrectionDistance: 0.2
+  CorrectionSizeDepthZLength: 0.001

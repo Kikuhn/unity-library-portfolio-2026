@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Stage
   m_EditorClassIdentifier: Pan.StageGenerators::Pan.StageGenerators.StageGeneratorSettingSbject
   setting:
-    prefabSettingSbject: {fileID: 11400000, guid: 11d3d82da09b8224aafc4a3c7cc13422, type: 2}
+    prefabSettingSbject: {fileID: 11400000, guid: a0959bac09b8ff84e9074ecd15b7e7ae, type: 2}
     stageGrid:
       <Main>k__BackingField:
-        rid: 6824160856566661199
+        rid: 6824160856566661219
       gridTagSetting_RoomMain: {fileID: 11400000, guid: 13008c40ac139ab4099d787cf528f437, type: 2}
       gridTagSetting_RoomSafe: {fileID: 11400000, guid: 886cbaa4bf75b6c4b833518905e0aabd, type: 2}
       gridTagSetting_RoomExpandSafe: {fileID: 11400000, guid: c69284b6b3cfd8547b5d29906a367431, type: 2}
@@ -53,73 +53,73 @@ MonoBehaviour:
       gridTagSettingExtendList: []
     stageVector:
       <Main>k__BackingField:
-        rid: 6824160856566661199
-      stageWidth: 60
-      stageHeight: 60
+        rid: 6824160856566661219
+      stageWidth: 150
+      stageHeight: 150
       StageCenterMode: 4
     space:
       <Main>k__BackingField:
-        rid: 6824160856566661199
+        rid: 6824160856566661219
       spaceCountMin: 1
       spaceCountMax: 255
       divideSpaceUnit: 10
       SpaceDivideMode: 0
       stopDivideProbability: 0.5
       divideSmallASAPRandomLength: 0.5
-      spaceWidthMin: 20
-      spaceHeightMin: 20
-      spaceWidthMax: 20
-      spaceHeightMax: 20
+      spaceWidthMin: 30
+      spaceHeightMin: 30
+      spaceWidthMax: 100
+      spaceHeightMax: 110
     spaceNodeConnect:
       <Main>k__BackingField:
-        rid: 6824160856566661199
+        rid: 6824160856566661219
       useCombineSpaceNodes: 1
       connectOneMode: 1
-      nodeCountMax: 4
+      nodeCountMax: 8
       nodeMaxCount_Down: 1
       nodeMaxCount_Up: 1
       nodeMaxCount_Left: 1
       nodeMaxCount_Right: 1
       useNodeLimit_MinimumSpaceWidth: 0
-      nodeLimit_MinimumSpaceWidth: 20
+      nodeLimit_MinimumSpaceWidth: 30
       useNodeLimit_MinimumSpaceHeight: 0
-      nodeLimit_MinimumSpaceHeight: 20
+      nodeLimit_MinimumSpaceHeight: 30
       useNodeLimit_SpaceSize: 0
       useNodeLimit_SpaceSize_Width: 0
       nodeLimit_SpaceSize_Width: 0
       useNodeLimit_SpaceSize_Width_ExtendLimitHeight: 0
-      nodeLimit_SpaceSize_Width_ExtendLimitHeight: 20
+      nodeLimit_SpaceSize_Width_ExtendLimitHeight: 30
       useNodeLimit_SpaceSize_Height: 0
       nodeLimit_SpaceSize_Height: 0
       useNodeLimit_SpaceSize_Height_ExtendLimitWidth: 0
-      nodeLimit_SpaceSize_Height_ExtendLimitWidth: 20
+      nodeLimit_SpaceSize_Height_ExtendLimitWidth: 30
     room:
       <Main>k__BackingField:
-        rid: 6824160856566661199
+        rid: 6824160856566661219
       roomPlaceRandomness: 0.5
-      useRoomPlaceNearest: 0
-      roomPlaceNearest_First_UseOneWayNearExpand: 0
+      useRoomPlaceNearest: 1
+      roomPlaceNearest_First_UseOneWayNearExpand: 1
       roomPlaceNearest_First_UseOneWayNearExpand_MaxCount: 50
-      roomPlaceNearest_UseSecond: 0
+      roomPlaceNearest_UseSecond: 1
       roomPlaceNearest_SecondMaxCount: 50
-      useRoomPlaceNearest_PostPlace: 0
+      useRoomPlaceNearest_PostPlace: 1
       roomPlaceNearest_PostPlace: 0
-      roomPlaceNearest_UseJobSystem: 0
+      roomPlaceNearest_UseJobSystem: 1
       roomPlaceNearest_MaxChoronoBreak_ByHallways: 50
-      roomPlacementMinWidth: 5
-      roomPlacementMinHeight: 5
+      roomPlacementMinWidth: 30
+      roomPlacementMinHeight: 30
       roomSizeCorrectionInSpaceWidth: 0
       roomPlacementHeightCorrection: 0
-      usePrioritizeMatchingRoomSize: 1
+      usePrioritizeMatchingRoomSize: 0
     hallway:
       <Main>k__BackingField:
-        rid: 6824160856566661199
+        rid: 6824160856566661219
       hallwayMinWidth: 1
       hallwayExpandPositive: 1
       useChoronoBreak_ByHallways_RoomPlaceNearest: 1
       hallwayPathFinding_MaxReCalculateLoopCount: 50
-      hallwayHeuristicType: 2
-      hallwayHeuristicFactor: 0.9
+      hallwayHeuristicType: 7
+      hallwayHeuristicFactor: 8
       useCreateHallwayEdge: 1
       hallwayEdgeLength: 1
       useCreateDoorHallwayEdge: 1
@@ -128,7 +128,7 @@ MonoBehaviour:
       hallwaySafeAreaLength: 1
     customEvent:
       <Main>k__BackingField:
-        rid: 6824160856566661199
+        rid: 6824160856566661219
       createGrid: {fileID: 0}
       summonRoom: {fileID: 0}
       connectRoom: {fileID: 0}
@@ -138,13 +138,13 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 6824160856566661199
+    - rid: 6824160856566661219
       type: {class: StageGeneratorSetting, ns: Pan.StageGenerators, asm: Pan.StageGenerators}
       data:
-        prefabSettingSbject: {fileID: 11400000, guid: 11d3d82da09b8224aafc4a3c7cc13422, type: 2}
+        prefabSettingSbject: {fileID: 11400000, guid: a0959bac09b8ff84e9074ecd15b7e7ae, type: 2}
         stageGrid:
           <Main>k__BackingField:
-            rid: 6824160856566661199
+            rid: 6824160856566661219
           gridTagSetting_RoomMain: {fileID: 11400000, guid: 13008c40ac139ab4099d787cf528f437, type: 2}
           gridTagSetting_RoomSafe: {fileID: 11400000, guid: 886cbaa4bf75b6c4b833518905e0aabd, type: 2}
           gridTagSetting_RoomExpandSafe: {fileID: 11400000, guid: c69284b6b3cfd8547b5d29906a367431, type: 2}
@@ -181,73 +181,73 @@ MonoBehaviour:
           gridTagSettingExtendList: []
         stageVector:
           <Main>k__BackingField:
-            rid: 6824160856566661199
-          stageWidth: 60
-          stageHeight: 60
+            rid: 6824160856566661219
+          stageWidth: 150
+          stageHeight: 150
           StageCenterMode: 4
         space:
           <Main>k__BackingField:
-            rid: 6824160856566661199
+            rid: 6824160856566661219
           spaceCountMin: 1
           spaceCountMax: 255
           divideSpaceUnit: 10
           SpaceDivideMode: 0
           stopDivideProbability: 0.5
           divideSmallASAPRandomLength: 0.5
-          spaceWidthMin: 20
-          spaceHeightMin: 20
-          spaceWidthMax: 20
-          spaceHeightMax: 20
+          spaceWidthMin: 30
+          spaceHeightMin: 30
+          spaceWidthMax: 100
+          spaceHeightMax: 110
         spaceNodeConnect:
           <Main>k__BackingField:
-            rid: 6824160856566661199
+            rid: 6824160856566661219
           useCombineSpaceNodes: 1
           connectOneMode: 1
-          nodeCountMax: 4
+          nodeCountMax: 8
           nodeMaxCount_Down: 1
           nodeMaxCount_Up: 1
           nodeMaxCount_Left: 1
           nodeMaxCount_Right: 1
           useNodeLimit_MinimumSpaceWidth: 0
-          nodeLimit_MinimumSpaceWidth: 20
+          nodeLimit_MinimumSpaceWidth: 30
           useNodeLimit_MinimumSpaceHeight: 0
-          nodeLimit_MinimumSpaceHeight: 20
+          nodeLimit_MinimumSpaceHeight: 30
           useNodeLimit_SpaceSize: 0
           useNodeLimit_SpaceSize_Width: 0
           nodeLimit_SpaceSize_Width: 0
           useNodeLimit_SpaceSize_Width_ExtendLimitHeight: 0
-          nodeLimit_SpaceSize_Width_ExtendLimitHeight: 20
+          nodeLimit_SpaceSize_Width_ExtendLimitHeight: 30
           useNodeLimit_SpaceSize_Height: 0
           nodeLimit_SpaceSize_Height: 0
           useNodeLimit_SpaceSize_Height_ExtendLimitWidth: 0
-          nodeLimit_SpaceSize_Height_ExtendLimitWidth: 20
+          nodeLimit_SpaceSize_Height_ExtendLimitWidth: 30
         room:
           <Main>k__BackingField:
-            rid: 6824160856566661199
+            rid: 6824160856566661219
           roomPlaceRandomness: 0.5
-          useRoomPlaceNearest: 0
-          roomPlaceNearest_First_UseOneWayNearExpand: 0
+          useRoomPlaceNearest: 1
+          roomPlaceNearest_First_UseOneWayNearExpand: 1
           roomPlaceNearest_First_UseOneWayNearExpand_MaxCount: 50
-          roomPlaceNearest_UseSecond: 0
+          roomPlaceNearest_UseSecond: 1
           roomPlaceNearest_SecondMaxCount: 50
-          useRoomPlaceNearest_PostPlace: 0
+          useRoomPlaceNearest_PostPlace: 1
           roomPlaceNearest_PostPlace: 0
-          roomPlaceNearest_UseJobSystem: 0
+          roomPlaceNearest_UseJobSystem: 1
           roomPlaceNearest_MaxChoronoBreak_ByHallways: 50
-          roomPlacementMinWidth: 5
-          roomPlacementMinHeight: 5
+          roomPlacementMinWidth: 30
+          roomPlacementMinHeight: 30
           roomSizeCorrectionInSpaceWidth: 0
           roomPlacementHeightCorrection: 0
-          usePrioritizeMatchingRoomSize: 1
+          usePrioritizeMatchingRoomSize: 0
         hallway:
           <Main>k__BackingField:
-            rid: 6824160856566661199
+            rid: 6824160856566661219
           hallwayMinWidth: 1
           hallwayExpandPositive: 1
           useChoronoBreak_ByHallways_RoomPlaceNearest: 1
           hallwayPathFinding_MaxReCalculateLoopCount: 50
-          hallwayHeuristicType: 2
-          hallwayHeuristicFactor: 0.9
+          hallwayHeuristicType: 7
+          hallwayHeuristicFactor: 8
           useCreateHallwayEdge: 1
           hallwayEdgeLength: 1
           useCreateDoorHallwayEdge: 1
@@ -256,7 +256,7 @@ MonoBehaviour:
           hallwaySafeAreaLength: 1
         customEvent:
           <Main>k__BackingField:
-            rid: 6824160856566661199
+            rid: 6824160856566661219
           createGrid: {fileID: 0}
           summonRoom: {fileID: 0}
           connectRoom: {fileID: 0}

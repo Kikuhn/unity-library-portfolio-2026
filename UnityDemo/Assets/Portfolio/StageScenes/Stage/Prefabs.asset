@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Prefabs
   m_EditorClassIdentifier: Pan.StageGenerators::Pan.StageGenerators.StageGeneratorSettingPrefabSbject
   setting:
-    gridCompatibleSnapSetting: {fileID: 11400000, guid: d9ef1ac0e1a9cf14d93c4b32ffc2c923, type: 2}
+    gridCompatibleSnapSetting: {fileID: 11400000, guid: 3cfeb89545156a240a952f4664be4a14, type: 2}
     roomPrefabList:
-    - {fileID: 6166961615448559048, guid: 9a74cee47e6053d4f9f1a76586602f61, type: 3}
+    - {fileID: 3208646484490931244, guid: 480127d74443df541bdfc27041b6b724, type: 3}
+    - {fileID: 2788709018699355065, guid: f8686192cbeed144fbc44623e435d918, type: 3}
+    - {fileID: 7624079455954510410, guid: a38ce76ee83dd2d4aa2177fcbd75cbe3, type: 3}
     hallwayPrefabList:
-    - {fileID: 7562651823966034373, guid: 0511fa3f0c05fb94ca8b841e6d9898dc, type: 3}
-    - {fileID: 7562651823966034373, guid: 0511fa3f0c05fb94ca8b841e6d9898dc, type: 3}
+    - {fileID: 4866034143857464896, guid: 9bd6ed798c650d546aad816e76db4ee4, type: 3}
     hallwayEdgePrefabList:
-    - {fileID: 7597806377962043459, guid: 016a7da00aa91ac4fbca8672c44f779e, type: 3}
+    - {fileID: 5383106832690976152, guid: 285dc0caab2805f42bd64ed169b47984, type: 3}

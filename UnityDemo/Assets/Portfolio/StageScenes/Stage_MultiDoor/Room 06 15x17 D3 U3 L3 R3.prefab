@@ -1,0 +1,440 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3344907951167162550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5006164935202226473}
+  - component: {fileID: 7757258947676722003}
+  - component: {fileID: 5208951077572038337}
+  m_Layer: 0
+  m_Name: Editable geometric visual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5006164935202226473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3344907951167162550}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 14.399999, y: 16.32, z: 0.12}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 465890852452116981}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7757258947676722003
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3344907951167162550}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &5208951077572038337
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3344907951167162550}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 36b9c8154f6012b4787f35e50284edf3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6435948397029503544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 465890852452116981}
+  - component: {fileID: 6747643754767301184}
+  m_Layer: 0
+  m_Name: Room 06 15x17 D3 U3 L3 R3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &465890852452116981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6435948397029503544}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5006164935202226473}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6747643754767301184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6435948397029503544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f6b8872c2aee9438c03e441a8942de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Pan.StageGenerators::Pan.StageGenerators.RoomObject
+  GridPositionCorrectionPlus: {x: 0, y: 0}
+  GridCompatibleInternal:
+    SnapSettingInternal:
+      swizzle: 0
+      gridUnitX_Width: 1
+      gridUnitY_Height: 1
+      gridUnitZ_Depth: 1
+      floorStandardPositionLength: 0
+      snapToGridCellCenter: 1
+    SnapSettingExternal: {fileID: 11400000, guid: 8d55aedff8f835d48a04e0a8065aeeea, type: 2}
+    objectSizeX_Width: 15
+    objectSizeY_Height: 17
+    objectSizeZ_Depth: 0
+  GridCompatibleSnapSettingSbject: {fileID: 0}
+  roomDoorM:
+    DoorList_Down:
+    - parentRoomObject: {fileID: 6747643754767301184}
+      DoorWidth: 3
+      DoorPlusLength: 0
+      DoorGridPositionAxis: -4
+      DoorGridPositionDistance: 0
+      DoorGrids: []
+      connectedDoor:
+        rid: -2
+      _hallwayCorrectionGridList: []
+      _hallwayPathGridList: []
+      EnableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      DisableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      OpenDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      CloseDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - parentRoomObject: {fileID: 6747643754767301184}
+      DoorWidth: 3
+      DoorPlusLength: 0
+      DoorGridPositionAxis: 0
+      DoorGridPositionDistance: 0
+      DoorGrids: []
+      connectedDoor:
+        rid: -2
+      _hallwayCorrectionGridList: []
+      _hallwayPathGridList: []
+      EnableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      DisableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      OpenDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      CloseDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - parentRoomObject: {fileID: 6747643754767301184}
+      DoorWidth: 3
+      DoorPlusLength: 0
+      DoorGridPositionAxis: 4
+      DoorGridPositionDistance: 0
+      DoorGrids: []
+      connectedDoor:
+        rid: -2
+      _hallwayCorrectionGridList: []
+      _hallwayPathGridList: []
+      EnableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      DisableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      OpenDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      CloseDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    DoorList_Up:
+    - parentRoomObject: {fileID: 6747643754767301184}
+      DoorWidth: 3
+      DoorPlusLength: 0
+      DoorGridPositionAxis: -4
+      DoorGridPositionDistance: 0
+      DoorGrids: []
+      connectedDoor:
+        rid: -2
+      _hallwayCorrectionGridList: []
+      _hallwayPathGridList: []
+      EnableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      DisableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      OpenDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      CloseDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - parentRoomObject: {fileID: 6747643754767301184}
+      DoorWidth: 3
+      DoorPlusLength: 0
+      DoorGridPositionAxis: 0
+      DoorGridPositionDistance: 0
+      DoorGrids: []
+      connectedDoor:
+        rid: -2
+      _hallwayCorrectionGridList: []
+      _hallwayPathGridList: []
+      EnableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      DisableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      OpenDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      CloseDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - parentRoomObject: {fileID: 6747643754767301184}
+      DoorWidth: 3
+      DoorPlusLength: 0
+      DoorGridPositionAxis: 4
+      DoorGridPositionDistance: 0
+      DoorGrids: []
+      connectedDoor:
+        rid: -2
+      _hallwayCorrectionGridList: []
+      _hallwayPathGridList: []
+      EnableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      DisableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      OpenDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      CloseDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    DoorList_Left:
+    - parentRoomObject: {fileID: 6747643754767301184}
+      DoorWidth: 3
+      DoorPlusLength: 0
+      DoorGridPositionAxis: -4
+      DoorGridPositionDistance: 0
+      DoorGrids: []
+      connectedDoor:
+        rid: -2
+      _hallwayCorrectionGridList: []
+      _hallwayPathGridList: []
+      EnableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      DisableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      OpenDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      CloseDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - parentRoomObject: {fileID: 6747643754767301184}
+      DoorWidth: 3
+      DoorPlusLength: 0
+      DoorGridPositionAxis: 0
+      DoorGridPositionDistance: 0
+      DoorGrids: []
+      connectedDoor:
+        rid: -2
+      _hallwayCorrectionGridList: []
+      _hallwayPathGridList: []
+      EnableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      DisableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      OpenDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      CloseDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - parentRoomObject: {fileID: 6747643754767301184}
+      DoorWidth: 3
+      DoorPlusLength: 0
+      DoorGridPositionAxis: 4
+      DoorGridPositionDistance: 0
+      DoorGrids: []
+      connectedDoor:
+        rid: -2
+      _hallwayCorrectionGridList: []
+      _hallwayPathGridList: []
+      EnableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      DisableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      OpenDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      CloseDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    DoorList_Right:
+    - parentRoomObject: {fileID: 6747643754767301184}
+      DoorWidth: 3
+      DoorPlusLength: 0
+      DoorGridPositionAxis: -4
+      DoorGridPositionDistance: 0
+      DoorGrids: []
+      connectedDoor:
+        rid: -2
+      _hallwayCorrectionGridList: []
+      _hallwayPathGridList: []
+      EnableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      DisableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      OpenDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      CloseDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - parentRoomObject: {fileID: 6747643754767301184}
+      DoorWidth: 3
+      DoorPlusLength: 0
+      DoorGridPositionAxis: 0
+      DoorGridPositionDistance: 0
+      DoorGrids: []
+      connectedDoor:
+        rid: -2
+      _hallwayCorrectionGridList: []
+      _hallwayPathGridList: []
+      EnableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      DisableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      OpenDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      CloseDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - parentRoomObject: {fileID: 6747643754767301184}
+      DoorWidth: 3
+      DoorPlusLength: 0
+      DoorGridPositionAxis: 4
+      DoorGridPositionDistance: 0
+      DoorGrids: []
+      connectedDoor:
+        rid: -2
+      _hallwayCorrectionGridList: []
+      _hallwayPathGridList: []
+      EnableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      DisableDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      OpenDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      CloseDoorEvent:
+        m_PersistentCalls:
+          m_Calls: []
+  roomVariationM:
+    Variations: []
+  RoomSelfExpandSize_Down: 0
+  RoomSelfExpandSize_Up: 0
+  RoomSelfExpandSize_Left: 0
+  RoomSelfExpandSize_Right: 0
+  roomObjectIsInstanced: 0
+  instanceBaseRoomObjectPrefab: {fileID: 0}
+  Applyed_InstanceRoomActivatedRect: 0
+  instanceRoomActivatedRect:
+    Offset: {x: 0, y: 0}
+    Size: {x: 0, y: 0}
+  instanceRoomActivatedRectExpand:
+    Offset: {x: 0, y: 0}
+    Size: {x: 0, y: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }

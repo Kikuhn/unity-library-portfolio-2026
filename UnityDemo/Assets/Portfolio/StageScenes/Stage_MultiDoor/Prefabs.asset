@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acf5a6236969c6a42aac468e5f0943a6, type: 3}
+  m_Name: Prefabs
+  m_EditorClassIdentifier: Pan.StageGenerators::Pan.StageGenerators.StageGeneratorSettingPrefabSbject
+  setting:
+    gridCompatibleSnapSetting: {fileID: 11400000, guid: 8d55aedff8f835d48a04e0a8065aeeea, type: 2}
+    roomPrefabList:
+    - {fileID: 7049291811893992472, guid: c84eafa17cf88644a92037ce7d655bde, type: 3}
+    - {fileID: 4011544370931399356, guid: 65945867d01696b43bac475e7b812d14, type: 3}
+    - {fileID: 7412043654191325712, guid: 20dd06cf90ed35a458101d5c42a58403, type: 3}
+    - {fileID: 8093723833748027677, guid: ac4c5f5b01653134fbf4eb71b1a3089a, type: 3}
+    - {fileID: 3101827272126994181, guid: aa063eb7a51db274d843616360a5d4fc, type: 3}
+    - {fileID: 6747643754767301184, guid: 5c116f25bc8592042bf3dec9dec51a08, type: 3}
+    - {fileID: 4749917226421982815, guid: 604a1ff0c37c66a43927681e8559ebdd, type: 3}
+    - {fileID: 231431289804877369, guid: ec98660ad52b9b941b492f469c9db0be, type: 3}
+    - {fileID: 4074009333026011582, guid: 766ad294771b63a4f8612914bb9ab78f, type: 3}
+    - {fileID: 2670279267181198713, guid: ee77fd207d1061e43a7de7f485b7ec16, type: 3}
+    - {fileID: 8351248507629249134, guid: 0b63ee5763c24dc429ca820e21b1923b, type: 3}
+    - {fileID: 2614240854674354336, guid: 4a614864f0ce2a841bcd5f316073afb0, type: 3}
+    - {fileID: 2484831958439075806, guid: 71df80b2ca00b5a428c53b69a78a7062, type: 3}
+    hallwayPrefabList:
+    - {fileID: 1488631810471608732, guid: a48e2f34a01d3cf4d92b61b32f6d77f7, type: 3}
+    hallwayEdgePrefabList:
+    - {fileID: 4402511978612589298, guid: bf0d6103ed3e62e43a65c5c8b0831d19, type: 3}

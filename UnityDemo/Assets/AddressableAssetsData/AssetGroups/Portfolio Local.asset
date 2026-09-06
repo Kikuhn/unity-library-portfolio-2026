@@ -15,6 +15,16 @@ MonoBehaviour:
   m_GroupName: Portfolio Local
   m_GUID: d65ce6a3f623c7247823def69ce7a1e3
   m_SerializeEntries:
+  - m_GUID: 0943df6b9afe9ca45bdcee50aab9008e
+    m_Address: GridCompatible2SingletonSettingSbject
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e3187f98ff92e247980e7f37cd7fe4a
+    m_Address: StageGeneratorSingletonSettingSbject
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b2a1873298915f94f9d86f0bfb52d684
     m_Address: portfolio-cube
     m_ReadOnly: 0

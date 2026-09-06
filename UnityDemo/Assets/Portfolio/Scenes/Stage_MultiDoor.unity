@@ -119,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &126535336
+--- !u!1 &1766841514
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,8 +127,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 126535338}
-  - component: {fileID: 126535337}
+  - component: {fileID: 1766841516}
+  - component: {fileID: 1766841515}
   m_Layer: 0
   m_Name: Stage Generator
   m_TagString: Untagged
@@ -136,50 +136,50 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &126535337
+--- !u!114 &1766841515
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 126535336}
+  m_GameObject: {fileID: 1766841514}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11e5bd47533247344ac3bd4ad98c6da5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Pan.StageGenerators::Pan.StageGenerators.StageGenerator
-  settingSbject: {fileID: 11400000, guid: afbc1e118fa188e419f6339292defb4e, type: 2}
-  calculateSettingSbject: {fileID: 11400000, guid: fef16ebe22c4f8f4d9ae206dc0ea8ae9, type: 2}
+  settingSbject: {fileID: 11400000, guid: 360301d9178efef4fbb246a09e13095b, type: 2}
+  calculateSettingSbject: {fileID: 11400000, guid: 833a9c423b0fb494592ade797a63c97a, type: 2}
   generateInfoM:
     useDestroyBeforeGenerate: 0
     failureGenerateEvent: 0
     reGenerateMaxCount: 3
     random:
-      <Seed>k__BackingField: -1114634625
+      <Seed>k__BackingField: 217437888
     UseSeed_NextWillApplied: 0
-    Seed_NextWillApplied: 0
+    Seed_NextWillApplied: 1510174085
     CurtenCall_ClearCaches: 0
   generateM:
     isGenerating: 0
     GeneratingCurrentSteps: 0
     GeneratingStepsBreak: 0
     UseDestroyButton_AbsoluteDestroy: 0
-    GenerateBurstTestCounting: 10
+    GenerateBurstTestCounting: 0
     GenerateBurstTestDelaySeconds: 0.1
   transformM:
-    stageParent: {fileID: 126535338}
+    stageParent: {fileID: 1766841516}
     stageParentPositionOriginalCache: {x: 0, y: 0, z: 0}
     stageParentPositionCurrentCache: {x: 0, y: 0, z: 0}
     stageParentSnappedPositionOriginalCache: {x: 0, y: 0, z: 0}
     stageParentSnappedPositionCurrentCache: {x: 0, y: 0, z: 0}
-    stageCenterPositionOriginalCache: {x: 59.5, y: 59.5, z: 0}
-    stageCenterPositionCurrentCache: {x: 59.5, y: 59.5, z: 0}
-    stageCenterPositionTransformCache: {x: 59.5, y: 59.5, z: 0}
-    stageCenterPositionTransformCurrentCache: {x: 59.5, y: 59.5, z: 0}
-    stageInstancePointCache: {x: -0.5, y: -0.5, z: 0}
-    stageInstancePointCurrentCache: {x: -0.5, y: -0.5, z: 0}
-    stageInstancePointTransformCache: {x: -0.5, y: -0.5, z: 0}
-    stageInstancePointTransformCurrentCache: {x: -0.5, y: -0.5, z: 0}
+    stageCenterPositionOriginalCache: {x: -0.5, y: -0.5, z: 0}
+    stageCenterPositionCurrentCache: {x: -0.5, y: -0.5, z: 0}
+    stageCenterPositionTransformCache: {x: -0.5, y: -0.5, z: 0}
+    stageCenterPositionTransformCurrentCache: {x: -0.5, y: -0.5, z: 0}
+    stageInstancePointCache: {x: -100.5, y: -100.5, z: 0}
+    stageInstancePointCurrentCache: {x: -100.5, y: -100.5, z: 0}
+    stageInstancePointTransformCache: {x: -100.5, y: -100.5, z: 0}
+    stageInstancePointTransformCurrentCache: {x: -100.5, y: -100.5, z: 0}
   placeM:
     placeObjects_Room:
       summonedObjectList: []
@@ -193,7 +193,7 @@ MonoBehaviour:
     MoveNearestRooms_First_ReportCount: 0
     MoveNearestRooms_Second_ReportCount: 0
     placedRoomTFInfoCacheM:
-      <Main>k__BackingField: {fileID: 126535337}
+      <Main>k__BackingField: {fileID: 1766841515}
   spaceM:
     spaceBinaryTree: []
     generation_MinNodeCount: -1
@@ -212,20 +212,20 @@ MonoBehaviour:
     NotUseUnityDebugLogs: 0
     logger:
       useDebugMode: 1
-      useDebugModeEditorOnly: 1
+      useDebugModeEditorOnly: 0
       logPathFileName: CustomLogSetting.txt
       runtimeLogFilePath: 
       editorDebugLogText: {fileID: 4900000, guid: 1fded7ae1c0210a468f563407e100e9c, type: 3}
   references:
     version: 2
     RefIds: []
---- !u!4 &126535338
+--- !u!4 &1766841516
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 126535336}
+  m_GameObject: {fileID: 1766841514}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -234,7 +234,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1799855956
+--- !u!1 &1805179307
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -242,9 +242,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1799855959}
-  - component: {fileID: 1799855958}
-  - component: {fileID: 1799855957}
+  - component: {fileID: 1805179310}
+  - component: {fileID: 1805179309}
+  - component: {fileID: 1805179308}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -252,13 +252,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1799855957
+--- !u!114 &1805179308
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799855956}
+  m_GameObject: {fileID: 1805179307}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
@@ -296,13 +296,13 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!20 &1799855958
+--- !u!20 &1805179309
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799855956}
+  m_GameObject: {fileID: 1805179307}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
@@ -331,7 +331,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 50
+  orthographic size: 65
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -347,13 +347,13 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &1799855959
+--- !u!4 &1805179310
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799855956}
+  m_GameObject: {fileID: 1805179307}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
@@ -366,5 +366,5 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 126535338}
-  - {fileID: 1799855959}
+  - {fileID: 1766841516}
+  - {fileID: 1805179310}

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 526060dd63c3d3f42ba760f23d0376f1, type: 3}
+  m_Name: StageGeneratorSingletonSettingSbject
+  m_EditorClassIdentifier: Pan.StageGenerators::Pan.StageGenerators.StageGeneratorSingletonSettingSbject
+  UseGizmo: 1
+  useStageGeneratorGizmo: 1
+  useStageGeneratorGizmoOnlySelect: 1
+  StageColor:
+    Use: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+  useSpaceGizmo: 0
+  useSpaceGizmoOnlySelect: 0
+  SpaceColor:
+    Use: 1
+    Color: {r: 0, g: 0, b: 1, a: 1}
+  UseSpaceInfoext: 1
+  UseSpaceInfoTextMouseHovering: 1
+  SpaceInsideLength: -0.2
+  SpaceNodeColor:
+    Use: 1
+    Color: {r: 0, g: 1, b: 1, a: 1}
+  UseSpaceNodeWebStyle: 1
+  useGridGizmo: 1
+  useGridGizmoOnlySelect: 0
+  GridColor:
+    Use: 0
+    Color: {r: 1, g: 1, b: 0.8, a: 0.2}
+  UseGridInfoTextMouseHovering: 1
+  GridColor_Occupied:
+    Use: 1
+    Color: {r: 1, g: 0, b: 0, a: 1}
+  GridColor_PathCost:
+    Use: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+  GridColor_WasBannedMainPath:
+    Use: 1
+    Color: {r: 1, g: 0, b: 0, a: 1}
+  GridColor_WasBannedCollisionOtherHallways:
+    Use: 1
+    Color: {r: 0, g: 1, b: 1, a: 1}
+  GridColor_RoomTag:
+    Use: 1
+    Color: {r: 1, g: 0, b: 0, a: 1}
+  GridColor_RoomSafeTag:
+    Use: 1
+    Color: {r: 1, g: 0.92156863, b: 0.015686275, a: 0.5}
+  GridColor_RoomExpandSafeTag:
+    Use: 1
+    Color: {r: 1, g: 0.1961, b: 0, a: 0.5}
+  GridColor_RoomDoorTag:
+    Use: 1
+    Color: {r: 0, g: 0, b: 0, a: 0.5}
+  GridColor_HallwayTag:
+    Use: 1
+    Color: {r: 0, g: 1, b: 1, a: 1}
+  GridColor_HallwayEdgeTag:
+    Use: 1
+    Color: {r: 1, g: 0, b: 0, a: 1}
+  GridColor_HallwaySafeTag:
+    Use: 1
+    Color: {r: 0, g: 1, b: 0, a: 1}
+  GridColor_HallwayNavMesh:
+    Use: 1
+    Color: {r: 1, g: 0, b: 1, a: 0.5}
+  GridColor_TempControl_byConnectHallway:
+    Use: 1
+    Color: {r: 1, g: 0, b: 1, a: 0.2}
+  GridColor_TempTest:
+    Use: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+  useRoomGizmo: 1
+  useRoomGizmoOnlySelect: 1
+  RoomRectColor:
+    Use: 1
+    Color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  DoorGridColor_Enabled:
+    Use: 1
+    Color: {r: 0, g: 1, b: 0, a: 0.5}
+  DoorGridColor_Disabled:
+    Use: 1
+    Color: {r: 1, g: 0, b: 0, a: 0.2}
+  RoomRectViewerColor:
+    Use: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+  RoomDoorNodeColor:
+    Use: 1
+    Color: {r: 0, g: 1, b: 0, a: 0.5}
+  RoomDoorHallwayCorrectionColor:
+    Use: 1
+    Color: {r: 1, g: 0, b: 0, a: 0.5}
+  RoomDoorHallwayPathColor:
+    Use: 1
+    Color: {r: 0, g: 0, b: 1, a: 0.5}

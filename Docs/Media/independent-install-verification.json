@@ -1,0 +1,42 @@
+{
+  "unity": "6000.5.6f1",
+  "buildExitCode": 0,
+  "sourceCSharpFilesCompared": 395,
+  "sourceMismatches": 0,
+  "copiedLibraryCache": false,
+  "localDependenciesInstalled": [
+    "Sirenix/Odin",
+    "DOTween",
+    "ZLinq core DLL",
+    "EssentialExtras (3 external helper source files)"
+  ],
+  "scope": "Separate source location with licensed/local-only dependencies installed; not a public-only installation or redistribution clearance.",
+  "playerMode": "Visible Windows Development Player",
+  "cases": [
+    {
+      "scene": "Stage",
+      "failures": 0,
+      "completed": true
+    },
+    {
+      "scene": "Event",
+      "failures": 0,
+      "completed": true
+    },
+    {
+      "scene": "Addressables",
+      "failures": 0,
+      "completed": true
+    },
+    {
+      "scene": "Spine",
+      "failures": 0,
+      "completed": true
+    },
+    {
+      "scene": "Density",
+      "failures": 0,
+      "completed": true
+    }
+  ]
+}

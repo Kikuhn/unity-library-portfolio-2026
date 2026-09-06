@@ -41,7 +41,7 @@ ElementMotionJob은 Burst와 IJobParallelFor, NativeContainer를 사용합니다
 
 [시연 명세](demo-specs.md#density) · [테스트 파일 목록](inventory.md)
 
-새 샘플의 Unity Editor 실행에서 1,000개 요소 생성·이동·렌더 제출 검사를 통과했습니다. 아래는 Codex가 제작한 기능 검증용 촬영 초안이며 기존 게임의 성능 개선 결과가 아닙니다. 화면의 Tick 시간은 편집기 관측값이고 별도 Player 성능 결과는 아래에 구분했습니다. 공개본의 독립 설치 검증은 남아 있습니다.
+새 샘플의 Unity Editor 실행에서 1,000개 요소 생성·이동·렌더 제출 검사를 통과했습니다. 아래는 Codex가 제작한 기능 검증용 촬영 초안이며 기존 게임의 성능 개선 결과가 아닙니다. 화면의 Tick 시간은 편집기 관측값이고 별도 Player 성능 결과는 아래에 구분했습니다. 정식 로컬 의존성을 설치한 별도 폴더에서도 새 빌드와 실행 검사를 통과했습니다.
 
 [시연 코드](../UnityDemo/Assets/Portfolio/Runtime/PortfolioDemo.cs) · [무음 MP4 초안](Media/Density-draft.mp4) · [자동 검사 결과](Media/Density-verification.json)
 

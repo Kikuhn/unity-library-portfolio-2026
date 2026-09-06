@@ -1,6 +1,6 @@
 # 설치 조건과 공개 범위
 
-기준 Unity: **6000.5.6f1**. UnityDemo 프로젝트와 6개 씬을 제작했으며 다섯 사례의 로컬 Editor·Windows Player 검증을 완료했습니다. 공개본의 독립 설치 검증은 아직 완료하지 않았습니다.
+기준 Unity: **6000.5.6f1**. UnityDemo 프로젝트와 6개 씬을 제작했으며 다섯 사례의 로컬 Editor·Windows Player 검증을 완료했습니다. 별도 폴더에서 Library 캐시 없이 새로 가져오기·빌드·5개 Player 검사를 완료했습니다. 아래 정식 로컬 의존성을 설치한 조건입니다.
 
 ## 내부 패키지
 
@@ -29,4 +29,6 @@ PanUtilityEssential의 DLL/LitJson.dll, Scripts/ThirdParty 및 과거 백업, Pa
 - Input Handling은 Both이며 기존 입력 기반 시연 UI와 설치된 Input System을 함께 사용합니다.
 - `Assets/LocalDependencies/`에는 정식 로컬 Sirenix, DOTween, ZLinq core DLL 및 원본의 보조 코드 3개를 설치했습니다. 이 폴더는 Git에서 제외합니다.
 - 보조 코드 `EnumComparer.cs`, `ReadOnlyAttribute.cs`, `CustomAnimatorCallback.cs`의 재배포 조건은 미확정입니다. 직접 작성한 코드로 표시하거나 공개 저장소에 포함하지 않습니다.
-- 외부 의존성을 설치하지 않아도 공개 프로젝트가 즉시 실행된다고 보장하지 않습니다. 라이선스 확인 및 별도 위치의 설치 검증이 남아 있습니다.
+- 외부 의존성을 설치하지 않아도 공개 프로젝트가 즉시 실행된다고 보장하지 않습니다. 별도 위치의 설치 검증은 로컬 의존성을 포함한 조건으로 통과했습니다. 외부 보조 파일의 출처·배포 조건 확정은 남아 있습니다.
+
+[독립 설치 검사 결과](Media/independent-install-verification.json): Libraries와 시연 C# 파일 395개가 작업본과 일치했습니다. 처음 생성한 Library 캐시에서 빌드한 Player의 5개 사례가 모두 통과했습니다.

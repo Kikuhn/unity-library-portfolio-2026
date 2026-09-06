@@ -45,3 +45,7 @@ Unity 패키지·공개 Git 의존성은 `Packages/manifest.json`과 lock 파일
 렌더링을 검사할 때는 **실제 창을 표시한 일반 Player 실행**을 사용합니다. 창을 숨기거나 batch mode로 실행하면 이 환경에서는 렌더 콜백·ScreenCapture가 실행되지 않아 시뮬레이션만 통과할 수 있습니다. 이 결과를 정상 화면 표시의 증거로 사용하지 않습니다.
 
 `Portfolio > Build Windows Development Player`는 Addressables 콘텐츠를 먼저 빌드한 뒤 Player를 빌드합니다. 기본 Build 메뉴만 사용할 경우에는 Addressables 콘텐츠를 별도로 최신 상태로 빌드해야 합니다.
+
+## 독립 설치 검증 결과
+
+Library 캐시를 복사하지 않은 별도 소스 폴더에서 정식 로컬 의존성을 설치한 뒤 새 가져오기·빌드와 5개 사례의 실제 Player 검사를 통과했습니다. [검사 기록](../Docs/Media/independent-install-verification.json)을 참조하세요. 공개 제외 보조 파일의 배포 조건은 여전히 미확정입니다.
